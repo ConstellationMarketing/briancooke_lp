@@ -32,19 +32,17 @@ export function Hero() {
           {/* Left Content */}
           <div className="text-white z-10">
             <h3 className="font-poppins text-accent font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
-              St. Louis Criminal Defense Lawyer
+              St. Louis DWI Lawyer
             </h3>
 
             <h1 className="font-poppins text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Results Driven
-              <br />
-              Defense.
+              Results-Driven. Aggressive. Experienced.
             </h1>
 
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-8">
-              Criminal defense is all we do. And we do it very well.
+              DWI defense isn't just part of our practice — it's our specialty.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
