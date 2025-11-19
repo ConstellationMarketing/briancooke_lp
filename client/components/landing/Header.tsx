@@ -8,7 +8,7 @@ export function Header() {
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/f27eaa918495e42b83efbb89b0f4ad96f25fa727?width=313"
               alt="Brian Cooke Criminal Defense"
-              className="h-12 w-auto"
+              className="h-20 sm:h-24 w-auto"
             />
           </div>
 
