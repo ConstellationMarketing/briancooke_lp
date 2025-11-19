@@ -18,8 +18,8 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
-          <div className="text-gray-900 z-10">
-            <h3 className="font-poppins text-primary font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
+          <div className="text-white z-10">
+            <h3 className="font-poppins text-accent font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
               St. Louis Criminal Defense Lawyer
             </h3>
 
@@ -29,7 +29,7 @@ export function Hero() {
               Defense.
             </h1>
 
-            <div className="w-24 sm:w-32 h-1 bg-primary mb-6"></div>
+            <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-8">
               Criminal defense is all we do. And we do it very well.
