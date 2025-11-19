@@ -71,7 +71,13 @@ export function Commitment() {
           </div>
 
           {/* Why Hiring The Law Offices */}
-          <div className="mb-8 bg-blue-600 rounded-lg p-6 sm:p-8 lg:p-10">
+        </div>
+      </div>
+
+      {/* Full-Width Why Hiring Section */}
+      <div className="bg-blue-700 py-12 sm:py-16 lg:py-20 mt-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div>
             <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
               Why Hiring The Law Offices of Brian J. Cooke Is a Smart Decision
             </h3>
