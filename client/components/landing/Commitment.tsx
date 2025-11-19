@@ -71,7 +71,7 @@ export function Commitment() {
           </div>
 
           {/* Why Hiring The Law Offices */}
-          <div className="mb-12 border-t border-gray-300 pt-12">
+          <div className="mb-8 border-t border-gray-300 pt-8">
             <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
               Why Hiring The Law Offices of Brian J. Cooke Is a Smart Decision
             </h3>
@@ -140,7 +140,7 @@ export function Commitment() {
           </div>
 
           {/* How We Build a Defense */}
-          <div className="mb-12 border-t border-gray-300 pt-12">
+          <div className="mb-8 border-t border-gray-300 pt-8">
             <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
               How We Build a Defense That Protects Your Future
             </h3>
