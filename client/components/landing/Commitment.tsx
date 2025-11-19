@@ -78,9 +78,9 @@ export function Commitment() {
       <div className="bg-primary py-12 sm:py-16 lg:py-20 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div>
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
+            <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4 text-center">
               Why Hiring The Law Offices of Brian J. Cooke Is a Smart Decision
-            </h3>
+            </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* 1. Exclusive Focus */}
@@ -235,7 +235,7 @@ export function Commitment() {
                     <span>Testing protocols</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-primary font-bold">•</span>
+                    <span className="text-primary font-bold">��</span>
                     <span>Medical and environmental factors</span>
                   </li>
                 </ul>
