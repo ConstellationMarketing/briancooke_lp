@@ -174,12 +174,23 @@ export function Commitment() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          {/* How We Build a Defense */}
-          <div className="mb-8 bg-primary py-8 px-6 sm:px-8 rounded-lg mt-8">
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-6">
+      {/* How We Build a Defense Section */}
+      <div className="bg-primary py-12 sm:py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header */}
+          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+            <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4">
               How We Build a Defense That Protects Your Future
-            </h3>
+            </h2>
+            <div className="w-24 sm:w-32 h-1 bg-white mx-auto mb-4"></div>
+          </div>
+
+          {/* Main Content */}
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-8">
 
             <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-6">
               When you're facing a DWI charge, the right defense strategy can mean the difference between jail time and freedom, a suspended license and the ability to keep driving, a criminal record and a clean slate. At The Law Offices of Brian J. Cooke, every defense starts with one goal: <strong>protecting your future at all costs.</strong>
@@ -304,6 +315,7 @@ export function Commitment() {
               <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                 A strategic, aggressive defense can dramatically change the outcome of a DWI case. With detailed investigation, prosecutorial insight, and personalized advocacy, The Law Offices of Brian J. Cooke builds defenses designed to protect your rights, your record, and your future.
               </p>
+            </div>
             </div>
           </div>
         </div>
