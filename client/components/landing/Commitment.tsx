@@ -14,27 +14,57 @@ export function Commitment() {
         <div className="max-w-4xl mx-auto">
           {/* Why You Need a Skilled DWI Attorney */}
           <div className="mb-12">
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
               DWI cases involve complex laws, scientific testing, and procedural rules. An experienced St. Louis DWI attorney can:
             </p>
-            <ul className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed space-y-3 mb-6">
-              <li className="flex items-start gap-3">
-                <span className="text-primary font-bold">•</span>
-                <span>Navigate legal processes efficiently</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary font-bold">•</span>
-                <span>Challenge improper evidence</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary font-bold">•</span>
-                <span>Protect your constitutional rights</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary font-bold">•</span>
-                <span>Seek reduced penalties or dismissal</span>
-              </li>
-            </ul>
+
+            {/* Large Block Grid for 4 Benefits */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl font-bold">1</span>
+                  </div>
+                  <h4 className="font-poppins text-lg sm:text-xl font-bold text-gray-900">
+                    Navigate legal processes efficiently
+                  </h4>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl font-bold">2</span>
+                  </div>
+                  <h4 className="font-poppins text-lg sm:text-xl font-bold text-gray-900">
+                    Challenge improper evidence
+                  </h4>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl font-bold">3</span>
+                  </div>
+                  <h4 className="font-poppins text-lg sm:text-xl font-bold text-gray-900">
+                    Protect your constitutional rights
+                  </h4>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl font-bold">4</span>
+                  </div>
+                  <h4 className="font-poppins text-lg sm:text-xl font-bold text-gray-900">
+                    Seek reduced penalties or dismissal
+                  </h4>
+                </div>
+              </div>
+            </div>
+
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
               The firm leverages prosecutorial insight to build strong, strategic defenses.
             </p>
