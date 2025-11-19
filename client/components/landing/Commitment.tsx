@@ -69,8 +69,6 @@ export function Commitment() {
               The firm leverages prosecutorial insight to build strong, strategic defenses.
             </p>
           </div>
-
-          {/* Why Hiring The Law Offices */}
         </div>
       </div>
 
