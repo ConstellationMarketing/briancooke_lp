@@ -7,7 +7,7 @@ export function Hero() {
   };
 
   return (
-    <section className="relative bg-gradient-to-r from-blue-900 to-blue-800 overflow-hidden">
+    <section className="relative bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
