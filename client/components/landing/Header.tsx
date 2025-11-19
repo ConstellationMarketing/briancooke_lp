@@ -23,9 +23,6 @@ export function Header() {
             >
               314-526-3779
             </a>
-            <div className="font-bold text-primary text-xs sm:text-sm">
-              When your freedom is on the line, don't wait to call us.
-            </div>
           </div>
         </div>
       </div>
