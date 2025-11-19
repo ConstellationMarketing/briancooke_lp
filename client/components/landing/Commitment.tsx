@@ -79,7 +79,7 @@ export function Commitment() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div>
             <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4 text-center">
-              Why Hiring The Law Offices of Brian J. Cooke Is a Smart Decision
+              Your Future Is Too Important to Trust to Anyone Else
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
