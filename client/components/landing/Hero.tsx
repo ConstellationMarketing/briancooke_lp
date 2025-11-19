@@ -12,7 +12,7 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <div className="text-gray-900 z-10">
-            <h3 className="font-poppins text-accent font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
+            <h3 className="font-poppins text-primary font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
               St. Louis Criminal Defense Lawyer
             </h3>
 
