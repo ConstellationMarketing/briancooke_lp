@@ -75,7 +75,7 @@ export function Commitment() {
       </div>
 
       {/* Full-Width Why Hiring Section */}
-      <div className="bg-blue-700 py-12 sm:py-16 lg:py-20 mt-8">
+      <div className="bg-blue-600 py-12 sm:py-16 lg:py-20 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div>
             <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
