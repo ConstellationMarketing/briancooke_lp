@@ -181,7 +181,7 @@ export function Commitment() {
               How We Build a Defense That Protects Your Future
             </h3>
 
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
+            <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-6">
               When you're facing a DWI charge, the right defense strategy can mean the difference between jail time and freedom, a suspended license and the ability to keep driving, a criminal record and a clean slate. At The Law Offices of Brian J. Cooke, every defense starts with one goal: <strong>protecting your future at all costs.</strong>
             </p>
 
