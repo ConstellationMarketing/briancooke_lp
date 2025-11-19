@@ -2,6 +2,8 @@ import { Header } from '@/components/landing/Header';
 import { Hero } from '@/components/landing/Hero';
 import { Badges } from '@/components/landing/Badges';
 import { Commitment } from '@/components/landing/Commitment';
+import { DWIConsequences } from '@/components/landing/DWIConsequences';
+import { DWI_FAQ } from '@/components/landing/DWI_FAQ';
 import { PracticeAreas } from '@/components/landing/PracticeAreas';
 import { CaseResults } from '@/components/landing/CaseResults';
 import { Testimonials } from '@/components/landing/Testimonials';
@@ -18,6 +20,8 @@ export default function Index() {
       <Hero />
       <Badges />
       <Commitment />
+      <DWIConsequences />
+      <DWI_FAQ />
       <PracticeAreas />
       <CaseResults />
       <Testimonials />
