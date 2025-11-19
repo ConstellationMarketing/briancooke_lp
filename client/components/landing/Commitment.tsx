@@ -71,69 +71,99 @@ export function Commitment() {
           </div>
 
           {/* Why Hiring The Law Offices */}
-          <div className="mb-8 border-t border-gray-300 pt-8">
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+          <div className="mb-8 bg-blue-600 rounded-lg p-6 sm:p-8 lg:p-10">
+            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
               Why Hiring The Law Offices of Brian J. Cooke Is a Smart Decision
             </h3>
 
-            <div className="space-y-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* 1. Exclusive Focus */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  1. Exclusive Focus on Criminal Defense
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  The firm focuses entirely on criminal defense rather than spreading across many unrelated practice areas. This depth of specialization can be a major advantage when facing charges that require nuanced legal expertise.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Exclusive Focus on Criminal Defense
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  Specialized expertise in criminal defense, not spread across unrelated practice areas.
                 </p>
               </div>
 
               {/* 2. High Accessibility */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  2. High Accessibility and Strong Client Communication
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  Clients receive the attorney's personal cell phone number, and the firm uses cloud-based systems so clients can access their case materials anytime. They emphasize openness and accessibility—an important factor in criminal cases where quick communication matters.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Direct Access & 24/7 Communication
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  Personal cell phone access and cloud-based case files available anytime.
                 </p>
               </div>
 
               {/* 3. Transparent Pricing */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  3. Transparent, Flat-Fee Pricing &amp; Payment Flexibility
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  The firm uses <strong>flat-rate fees</strong> based on the expected workload and is willing to work with clients on <strong>payment plans</strong>. This helps reduce uncertainty and financial stress during an already difficult time.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Flat-Fee Pricing & Flexible Payment
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  Transparent costs with no surprises. Work with you on payment arrangements.
                 </p>
               </div>
 
               {/* 4. Proven Results */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  4. Proven Results &amp; Professional Recognition
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  The website lists notable case outcomes (such as DWI reductions and license reinstatements). The attorney has been recognized as a <strong>SuperLawyers Rising Star</strong> and earned a <strong>10 Best in Client Satisfaction</strong> award for DWI defense in Missouri.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Proven Results & Recognition
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  SuperLawyers Rising Star. 10 Best in Client Satisfaction award for DWI defense.
                 </p>
               </div>
 
               {/* 5. Holistic Approach */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  5. Holistic, Client-Centered Approach
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  Beyond just legal defense, the firm assists clients with underlying issues such as alcohol, drug, or mental health treatment placement. This approach can lead to better long-term outcomes and demonstrates an investment in the client's overall wellbeing.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Client-Centered Support
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  Assistance with treatment placement and underlying issues for long-term success.
                 </p>
               </div>
 
               {/* 6. Free Consultations */}
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
-                  6. Free Consultations &amp; Broad Local Coverage
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-                  They offer free initial consultations and serve a wide region including St. Louis County, St. Charles County, Jefferson County, and surrounding areas. This makes them highly accessible for clients throughout the St. Louis metro area.
+              <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                    ✓
+                  </div>
+                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                    Free Consultations & Wide Coverage
+                  </h4>
+                </div>
+                <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
+                  Serving St. Louis, St. Charles, Jefferson Counties and surrounding areas.
                 </p>
               </div>
             </div>
