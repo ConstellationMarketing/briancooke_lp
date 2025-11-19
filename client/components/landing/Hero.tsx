@@ -7,7 +7,14 @@ export function Hero() {
   };
 
   return (
-    <section className="relative bg-white overflow-hidden">
+    <section
+      className="relative overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fa20fd3c7a4a842c7a353e617a6076f53?format=webp&width=800)',
+      }}
+    >
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
