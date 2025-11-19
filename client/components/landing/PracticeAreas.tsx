@@ -51,15 +51,15 @@ export function PracticeAreas() {
   ];
 
   return (
-    <section id="practice-areas" className="bg-gradient-to-r from-primary to-blue-700 py-16 sm:py-20 lg:py-28">
+    <section id="practice-areas" className="bg-white py-16 sm:py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-6">
+          <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Practice Areas
           </h2>
-          <div className="w-24 sm:w-32 h-1 bg-accent mx-auto mb-8"></div>
-          <div className="max-w-3xl mx-auto text-white font-pt-sans text-base sm:text-lg leading-relaxed">
+          <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-8"></div>
+          <div className="max-w-3xl mx-auto text-gray-800 font-pt-sans text-base sm:text-lg leading-relaxed">
             <p className="mb-4">
               At The Law Offices of Brian J. Cooke, we focus entirely on criminal defense, delivering aggressive and effective legal services tailored to protect our clients' rights and provide them with a strong defense. Our legal team has extensive experience across various criminal issues, including <span className="underline">sex crimes</span>, drug offenses, white-collar crimes, etc, enabling us to address the unique challenges and concerns our clients may face.
             </p>
