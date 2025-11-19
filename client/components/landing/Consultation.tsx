@@ -66,9 +66,9 @@ export function Consultation() {
           </div>
 
           {/* Right map placeholder */}
-          <div className="hidden lg:block bg-white rounded-lg p-4 h-96">
+          <div className="hidden lg:block bg-white/90 rounded-lg p-4 h-96 shadow-lg">
             <div className="w-full h-full bg-gray-200 rounded flex items-center justify-center">
-              <p className="text-gray-500 font-pt-sans">Map location</p>
+              <p className="text-gray-600 font-pt-sans">Map location</p>
             </div>
           </div>
         </div>
