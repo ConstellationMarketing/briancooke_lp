@@ -21,7 +21,6 @@ export default function Index() {
       <Commitment />
       <DWIConsequences />
       <DWI_FAQ />
-      <PracticeAreas />
       <CaseResults />
       <Testimonials />
       <AboutBrian />
