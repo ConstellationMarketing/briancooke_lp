@@ -300,7 +300,7 @@ export function Commitment() {
               </div>
             </div>
 
-            <div className="mt-6 pt-6 border-t border-gray-300">
+            <div className="mt-6 pt-6 border-t border-white/30">
               <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                 A strategic, aggressive defense can dramatically change the outcome of a DWI case. With detailed investigation, prosecutorial insight, and personalized advocacy, The Law Offices of Brian J. Cooke builds defenses designed to protect your rights, your record, and your future.
               </p>
