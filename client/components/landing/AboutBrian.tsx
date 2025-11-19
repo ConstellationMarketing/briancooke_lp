@@ -1,0 +1,98 @@
+export function AboutBrian() {
+  return (
+    <section className="bg-white py-16 sm:py-20 lg:py-28">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+          <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            Meet Brian Cooke
+          </h2>
+          <div className="w-24 sm:w-32 h-1 bg-accent mx-auto"></div>
+        </div>
+
+        {/* Main Bio */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-16 lg:mb-20">
+          <div className="order-2 lg:order-1">
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
+              At The Law Offices of Brian J. Cooke, LLC we understand a criminal charge is one of the most stressful experiences imaginable. After being arrested, taken to jail, and hauled into court, it often feels as if you've already been convicted. While no attorney can ethically guarantee a result, we do guarantee that we will do everything possible to obtain the best outcome possible in your case. Whether you're facing a serious felony charge or a low-level misdemeanor, it's always a serious matter when your reputation is at stake.
+            </p>
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+              At The Law Offices of Brian J. Cooke, we treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer. We don't pressure our clients into plea deals. We explore every possible defense and prepare each case as if it is going to trial. The founding attorney of our law firm, Brian Cooke, has represented individuals facing just about every charge–from misdemeanors to murder. Whether you are a first-time offender or have a significant criminal history, we fight each case with everything we have.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Read More
+              </button>
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Schedule a Free Consultation
+              </button>
+            </div>
+          </div>
+          <div className="order-1 lg:order-2">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/6954551955b5167d051da3916fa534f94a1a4fc0?width=1286"
+              alt="Brian Cooke"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Missouri Overview */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-16 lg:mb-20">
+          <div>
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/ee9c24bc02496c2178930df9dfa7d34ed8093002?width=1278"
+              alt="Missouri Criminal Defense Overview"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+          <div>
+            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+              Missouri Criminal Defense Overview
+            </h3>
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed text-right mb-8">
+              No one expects criminal charges, and when they come you have to put on a brave face and find a criminal lawyer. One of the most stressful aspects is often not understanding Missouri's criminal case process. After being arrested and hauled into court, it may feel as if you've already been convicted. However, no case is "open and shut". Missouri's criminal justice system and criminal laws are complex and it is imperative to have a good criminal defense lawyer on your side. Below is an overview of the criminal process in Missouri.
+              <br /><br />
+              · Investigations, Interrogations, and Arrests: If the police are investigating you for a criminal offense, it is in your best interest to get a criminal attorney involved. Oftentimes, legal representation can speak directly with the investigating officer in order to stop further harassment from the police.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Read More
+              </button>
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Schedule a Free Consultation
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Get Help */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+          <div>
+            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+              Get Help From The Law Offices of Brian J. Cooke
+            </h3>
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+              Receive legal advice and help from St. Louis criminal defense attorney Brian Cooke. If you are facing criminal charges, you need an experienced defense lawyer to ensure that your rights are protected. The Law Offices of Brian J. Cooke offers quality representation. Call or email us 24/7 to schedule a free 30 minute consultation.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Read More
+              </button>
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Schedule a Free Consultation
+              </button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/b43a009d0b79ec50fde15ed6ee6daf458b2ef7a9?width=1270"
+              alt="Get Help"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
