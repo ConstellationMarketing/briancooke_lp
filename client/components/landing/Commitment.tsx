@@ -185,32 +185,32 @@ export function Commitment() {
               When you're facing a DWI charge, the right defense strategy can mean the difference between jail time and freedom, a suspended license and the ability to keep driving, a criminal record and a clean slate. At The Law Offices of Brian J. Cooke, every defense starts with one goal: <strong>protecting your future at all costs.</strong>
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
+            <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-6">
               Unlike attorneys who take a one-size-fits-all approach, this firm digs deep into the details of your case to identify weaknesses in the prosecution's evidence and opportunities to get charges reduced—or dismissed entirely.
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
+            <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-6">
               Here's how a strong defense is built:
             </p>
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
+                <h4 className="font-poppins text-xl font-bold text-white mb-3">
                   1. Challenging the Stop and Arrest
                 </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                   Police must follow strict rules before pulling someone over or making an arrest. If they lacked reasonable suspicion or violated procedure at any point, the case can unravel fast. This firm thoroughly examines dash-cam footage, arrest reports, and officer conduct to expose unlawful stops and improper policing.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
+                <h4 className="font-poppins text-xl font-bold text-white mb-3">
                   2. Attacking the Evidence
                 </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-4">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-4">
                   Breath tests, blood tests, and field sobriety tests are not as reliable as prosecutors claim. Attorney Brian Cooke scrutinizes:
                 </p>
-                <ul className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed space-y-2 mb-4">
+                <ul className="font-pt-sans text-base sm:text-lg text-white leading-relaxed space-y-2 mb-4">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold">•</span>
                     <span>Machine calibration logs</span>
@@ -228,19 +228,19 @@ export function Commitment() {
                     <span>Medical and environmental factors</span>
                   </li>
                 </ul>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                   A single flaw can be enough to weaken—or eliminate—the prosecution's case.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
+                <h4 className="font-poppins text-xl font-bold text-white mb-3">
                   3. Leveraging Prosecutorial Insight
                 </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-4">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-4">
                   As a <strong>former prosecutor</strong>, Brian understands exactly how the other side builds DWI cases. He knows:
                 </p>
-                <ul className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed space-y-2 mb-4">
+                <ul className="font-pt-sans text-base sm:text-lg text-white leading-relaxed space-y-2 mb-4">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold">•</span>
                     <span>What prosecutors look for</span>
@@ -258,19 +258,19 @@ export function Commitment() {
                     <span>How to negotiate from a position of strength</span>
                   </li>
                 </ul>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                   This insider perspective gives clients a significant advantage.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
+                <h4 className="font-poppins text-xl font-bold text-white mb-3">
                   4. Tailoring the Strategy to Your Life and Priorities
                 </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-4">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed mb-4">
                   Every client comes with different concerns—your job, your license, your family, your record. The defense plan is customized to:
                 </p>
-                <ul className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed space-y-2 mb-4">
+                <ul className="font-pt-sans text-base sm:text-lg text-white leading-relaxed space-y-2 mb-4">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold">•</span>
                     <span>Protect your driving privileges</span>
@@ -291,17 +291,17 @@ export function Commitment() {
               </div>
 
               <div>
-                <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
+                <h4 className="font-poppins text-xl font-bold text-white mb-3">
                   5. Going Beyond the Legal Case
                 </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                   The firm doesn't just fight charges—it helps clients address underlying issues (alcohol, stress, medical concerns, etc.) when needed. Courts often look favorably on proactive steps like treatment or counseling, which can strengthen negotiations and improve outcomes.
                 </p>
               </div>
             </div>
 
             <div className="mt-6 pt-6 border-t border-gray-300">
-              <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+              <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
                 A strategic, aggressive defense can dramatically change the outcome of a DWI case. With detailed investigation, prosecutorial insight, and personalized advocacy, The Law Offices of Brian J. Cooke builds defenses designed to protect your rights, your record, and your future.
               </p>
             </div>
