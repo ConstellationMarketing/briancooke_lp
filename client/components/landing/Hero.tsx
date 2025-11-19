@@ -22,7 +22,7 @@ export function Hero() {
               Defense.
             </h1>
 
-            <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
+            <div className="w-24 sm:w-32 h-1 bg-primary mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-8">
               Criminal defense is all we do. And we do it very well.
