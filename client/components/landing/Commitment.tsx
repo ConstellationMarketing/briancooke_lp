@@ -193,22 +193,22 @@ export function Commitment() {
           {/* Main Content */}
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
-              <div className="space-y-4">
-                <h4 className="font-poppins text-xl font-bold text-white">
+              <div className="space-y-6">
+                <h3 className="font-poppins text-3xl sm:text-4xl font-extrabold text-white leading-tight">
                   1. Challenging the Stop and Arrest
-                </h4>
-                <h4 className="font-poppins text-xl font-bold text-white">
+                </h3>
+                <h3 className="font-poppins text-3xl sm:text-4xl font-extrabold text-white leading-tight">
                   2. Attacking the Evidence
-                </h4>
-                <h4 className="font-poppins text-xl font-bold text-white">
+                </h3>
+                <h3 className="font-poppins text-3xl sm:text-4xl font-extrabold text-white leading-tight">
                   3. Leveraging Prosecutorial Insight
-                </h4>
-                <h4 className="font-poppins text-xl font-bold text-white">
+                </h3>
+                <h3 className="font-poppins text-3xl sm:text-4xl font-extrabold text-white leading-tight">
                   4. Tailoring the Strategy to Your Life and Priorities
-                </h4>
-                <h4 className="font-poppins text-xl font-bold text-white">
+                </h3>
+                <h3 className="font-poppins text-3xl sm:text-4xl font-extrabold text-white leading-tight">
                   5. Going Beyond the Legal Case
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
