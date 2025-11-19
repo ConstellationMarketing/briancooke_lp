@@ -208,15 +208,10 @@ export function Commitment() {
               Here's how a strong defense is built:
             </p>
 
-            <div className="space-y-6">
-              <div>
-                <h4 className="font-poppins text-xl font-bold text-white mb-3">
-                  1. Challenging the Stop and Arrest
-                </h4>
-                <p className="font-pt-sans text-base sm:text-lg text-white leading-relaxed">
-                  Police must follow strict rules before pulling someone over or making an arrest. If they lacked reasonable suspicion or violated procedure at any point, the case can unravel fast. This firm thoroughly examines dash-cam footage, arrest reports, and officer conduct to expose unlawful stops and improper policing.
-                </p>
-              </div>
+            <div className="space-y-4">
+              <h4 className="font-poppins text-xl font-bold text-white">
+                1. Challenging the Stop and Arrest
+              </h4>
 
               <div>
                 <h4 className="font-poppins text-xl font-bold text-white mb-3">
