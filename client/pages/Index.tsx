@@ -1,5 +1,4 @@
 import { Header } from '@/components/landing/Header';
-import { Navigation } from '@/components/landing/Navigation';
 import { Hero } from '@/components/landing/Hero';
 import { Badges } from '@/components/landing/Badges';
 import { Commitment } from '@/components/landing/Commitment';
