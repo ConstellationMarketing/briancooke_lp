@@ -8,7 +8,7 @@ export function Consultation() {
           'url(https://api.builder.io/api/v1/image/assets/TEMP/514673afc02c3ed92c05252b9953b6ba78094825?width=3840)'
       }}
     >
-      <div className="absolute inset-0 bg-blue-900/80"></div>
+      <div className="absolute inset-0 bg-white/80"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left content */}
