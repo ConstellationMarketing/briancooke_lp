@@ -101,10 +101,10 @@ export function Commitment() {
               {/* 2. High Accessibility */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
                     ✓
                   </div>
-                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                  <h4 className="font-poppins text-lg font-bold text-primary">
                     Direct Access & 24/7 Communication
                   </h4>
                 </div>
@@ -116,10 +116,10 @@ export function Commitment() {
               {/* 3. Transparent Pricing */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
                     ✓
                   </div>
-                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                  <h4 className="font-poppins text-lg font-bold text-primary">
                     Flat-Fee Pricing & Flexible Payment
                   </h4>
                 </div>
@@ -131,10 +131,10 @@ export function Commitment() {
               {/* 4. Proven Results */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
                     ✓
                   </div>
-                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                  <h4 className="font-poppins text-lg font-bold text-primary">
                     Proven Results & Recognition
                   </h4>
                 </div>
@@ -146,10 +146,10 @@ export function Commitment() {
               {/* 5. Holistic Approach */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
                     ✓
                   </div>
-                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                  <h4 className="font-poppins text-lg font-bold text-primary">
                     Client-Centered Support
                   </h4>
                 </div>
@@ -161,10 +161,10 @@ export function Commitment() {
               {/* 6. Free Consultations */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold">
                     ✓
                   </div>
-                  <h4 className="font-poppins text-lg font-bold text-blue-600">
+                  <h4 className="font-poppins text-lg font-bold text-primary">
                     Free Consultations & Wide Coverage
                   </h4>
                 </div>
