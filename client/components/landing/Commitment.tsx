@@ -178,7 +178,7 @@ export function Commitment() {
       </div>
 
       {/* How We Build a Defense Section */}
-      <div className="bg-primary py-12 sm:py-16 lg:py-20">
+      <div className="bg-primary pt-12 sm:pt-16 lg:pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-8 sm:mb-10 lg:mb-12">
