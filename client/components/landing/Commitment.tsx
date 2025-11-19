@@ -1,26 +1,26 @@
 export function Commitment() {
   return (
-    <section id="commitment" className="bg-white py-16 sm:py-20 lg:py-28">
+    <section id="commitment" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
             Why You Need a Skilled DWI Attorney
           </h2>
-          <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-6"></div>
+          <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-4"></div>
         </div>
 
         {/* Main Content */}
         <div className="max-w-4xl mx-auto">
           {/* Why You Need a Skilled DWI Attorney */}
-          <div className="mb-12">
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+          <div className="mb-8">
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
               DWI cases involve complex laws, scientific testing, and procedural rules. An experienced St. Louis DWI attorney can:
             </p>
 
             {/* Large Block Grid for 4 Benefits */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
                     <span className="text-2xl font-bold">1</span>
@@ -31,7 +31,7 @@ export function Commitment() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
                     <span className="text-2xl font-bold">2</span>
@@ -42,7 +42,7 @@ export function Commitment() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
                     <span className="text-2xl font-bold">3</span>
@@ -53,7 +53,7 @@ export function Commitment() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-6 sm:p-8">
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
                     <span className="text-2xl font-bold">4</span>
