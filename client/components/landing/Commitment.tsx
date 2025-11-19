@@ -177,7 +177,7 @@ export function Commitment() {
 
           {/* How We Build a Defense */}
           <div className="mb-8 border-t border-gray-300 pt-8">
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-white mb-6">
               How We Build a Defense That Protects Your Future
             </h3>
 
