@@ -77,11 +77,15 @@ export function Commitment() {
       {/* Full-Width Why Hiring Section */}
       <div className="bg-primary py-12 sm:py-16 lg:py-20 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div>
-            <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4 text-center">
+          {/* Header */}
+          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+            <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4">
               Your Future Is Too Important to Trust to Anyone Else
             </h2>
+          </div>
 
+          {/* Main Content */}
+          <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* 1. Exclusive Focus */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
