@@ -2,7 +2,7 @@ export function Consultation() {
   return (
     <section
       id="consultation"
-      className="bg-gradient-to-b from-blue-900 to-blue-950 text-white py-16 sm:py-20 lg:py-28 bg-cover bg-center"
+      className="bg-white py-16 sm:py-20 lg:py-28 bg-cover bg-center relative"
       style={{
         backgroundImage:
           'url(https://api.builder.io/api/v1/image/assets/TEMP/514673afc02c3ed92c05252b9953b6ba78094825?width=3840)'
