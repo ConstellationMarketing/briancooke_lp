@@ -141,23 +141,23 @@ export function Commitment() {
 
           {/* How We Build a Defense */}
           <div className="mb-8 border-t border-gray-300 pt-8">
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
+            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
               How We Build a Defense That Protects Your Future
             </h3>
-            
+
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
               When you're facing a DWI charge, the right defense strategy can mean the difference between jail time and freedom, a suspended license and the ability to keep driving, a criminal record and a clean slate. At The Law Offices of Brian J. Cooke, every defense starts with one goal: <strong>protecting your future at all costs.</strong>
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
               Unlike attorneys who take a one-size-fits-all approach, this firm digs deep into the details of your case to identify weaknesses in the prosecution's evidence and opportunities to get charges reduced—or dismissed entirely.
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
               Here's how a strong defense is built:
             </p>
 
-            <div className="space-y-8">
+            <div className="space-y-6">
               <div>
                 <h4 className="font-poppins text-xl font-bold text-gray-900 mb-3">
                   1. Challenging the Stop and Arrest
