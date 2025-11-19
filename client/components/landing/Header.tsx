@@ -13,13 +13,13 @@ export function Header() {
           </div>
 
           {/* Right side contact info */}
-          <div className="flex flex-col sm:text-right gap-2 text-sm">
-            <div className="font-bold text-primary">
+          <div className="flex flex-col sm:text-right gap-2">
+            <div className="font-bold text-primary text-base sm:text-lg">
               Free Consultation:
             </div>
             <a
               href="tel:314-526-3779"
-              className="font-bold text-primary hover:underline"
+              className="font-bold text-primary hover:underline text-lg sm:text-2xl"
             >
               314-526-3779
             </a>
