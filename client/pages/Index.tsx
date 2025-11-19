@@ -15,7 +15,6 @@ export default function Index() {
   return (
     <div className="w-full">
       <Header />
-      <Navigation />
       <Hero />
       <Badges />
       <Commitment />
