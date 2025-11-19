@@ -13,27 +13,27 @@ export function Consultation() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left content */}
           <div>
-            <h2 className="font-poppins text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="font-poppins text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
               Free Consultation
             </h2>
-            <div className="w-20 sm:w-24 h-1 bg-accent mb-8"></div>
+            <div className="w-20 sm:w-24 h-1 bg-primary mb-8"></div>
 
-            <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-6">
+            <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-6 text-gray-800">
               Have you been accused of committing a criminal offense in St. Louis? We invite you to reach out to The Law Offices of Brian J. Cooke if you are looking for a team that marries legal skills with a passion for justice. While no outcome can be guaranteed, what we can promise is our relentless pursuit of the most favorable outcome in your case.
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-8">
+            <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-8 text-gray-800">
               Our satisfaction comes not just from successful case resolutions, but also from the knowledge that we have helped you navigate through one of your most challenging journeys toward a more hopeful horizon.
             </p>
 
-            <p className="font-pt-sans text-base sm:text-lg mb-8">
-              <a href="#" className="text-primary hover:text-accent transition">
+            <p className="font-pt-sans text-base sm:text-lg mb-8 text-gray-800">
+              <a href="#" className="text-primary hover:underline transition">
                 Contact us today
               </a>
               {' '}to schedule a free consultation today with a skilled criminal defense attorney.
             </p>
 
-            <div className="border-t border-accent pt-8 mb-8">
+            <div className="border-t border-primary pt-8 mb-8">
               <div className="flex items-center gap-3 mb-6">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
                   <path d="M11 0C4.9 0 0 4.9 0 11s4.9 11 11 11 11-4.9 11-11S17.1 0 11 0zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9zm3.5-9c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5zm-7 0c0 .83-.67 1.5-1.5 1.5S4 11.83 4 11s.67-1.5 1.5-1.5S7.5 10.17 7.5 11z" />
