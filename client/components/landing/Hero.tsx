@@ -26,7 +26,7 @@ export function Hero() {
             </h3>
 
             <h1 className="font-poppins text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Results-Driven. Aggressive. Experienced.
+              Beat Your DWI. Keep Your License.
             </h1>
 
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
