@@ -42,7 +42,7 @@ export function Hero() {
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-8">
-              DWI defense isn't just part of our practice — it's what we're known for.
+              DWI defense isn't just part of our practice ��� it's what we're known for.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -53,7 +53,7 @@ export function Hero() {
                 Schedule a Free Consultation
               </button>
               <a
-                href="tel:314-526-3779"
+                href="tel:(314)582-8848"
                 className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
               >
                 <svg width="21" height="21" viewBox="0 0 21 21" fill="currentColor">

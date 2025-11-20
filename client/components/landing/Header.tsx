@@ -18,10 +18,10 @@ export function Header() {
               Free Consultation:
             </div>
             <a
-              href="tel:314-526-3779"
+              href="tel:(314)582-8848"
               className="font-bold text-primary hover:underline text-lg sm:text-2xl"
             >
-              314-526-3779
+              (314) 582-8848
             </a>
           </div>
         </div>
