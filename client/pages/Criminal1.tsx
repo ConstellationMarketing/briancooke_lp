@@ -1,8 +1,9 @@
 import { Header } from '@/components/landing/Header';
-import { Hero } from '@/components/landing/Hero';
+import { CriminalHero } from '@/components/landing/CriminalHero';
 import { Badges } from '@/components/landing/Badges';
 import { Commitment } from '@/components/landing/Commitment';
-import { DWI_FAQ } from '@/components/landing/DWI_FAQ';
+import { PracticeAreas } from '@/components/landing/PracticeAreas';
+import { CaseResults } from '@/components/landing/CaseResults';
 import { Testimonials } from '@/components/landing/Testimonials';
 import { AboutBrian } from '@/components/landing/AboutBrian';
 import { Recognized } from '@/components/landing/Recognized';
@@ -14,12 +15,13 @@ export default function Criminal1() {
   return (
     <div className="w-full">
       <Header />
-      <Hero />
+      <CriminalHero />
       <Badges />
       <Commitment />
+      <PracticeAreas />
+      <CaseResults />
       <AboutBrian />
       <Testimonials />
-      <DWI_FAQ />
       <ServingAreas />
       <Recognized />
       <Consultation />
