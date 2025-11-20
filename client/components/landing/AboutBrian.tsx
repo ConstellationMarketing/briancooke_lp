@@ -21,7 +21,7 @@ export function AboutBrian() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Read More
+                Click to Call 24/7
               </button>
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
                 Schedule a Free Consultation
@@ -55,7 +55,7 @@ export function AboutBrian() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Read More
+                Click to Call 24/7
               </button>
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
                 Schedule a Free Consultation
