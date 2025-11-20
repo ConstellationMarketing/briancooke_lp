@@ -1,3 +1,5 @@
+import { ConsultationForm } from './ConsultationForm';
+
 export function Consultation() {
   return (
     <section
@@ -21,10 +23,7 @@ export function Consultation() {
 
         {/* Form Container */}
         <div className="max-w-2xl mx-auto bg-white rounded-lg p-8 sm:p-12 shadow-lg">
-          {/* Form content will go here */}
-          <div className="text-center text-gray-600 font-pt-sans">
-            {/* Placeholder for form content */}
-          </div>
+          <ConsultationForm />
         </div>
       </div>
     </section>
