@@ -69,8 +69,8 @@ export function CaseResults() {
               <p className="font-pt-sans text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
                 {caseItem.description}
               </p>
-              <button className="border-2 border-gray-900 text-gray-900 px-6 py-2 rounded font-pt-sans font-semibold hover:bg-gray-900 hover:text-white transition">
-                read more
+              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+                Click to Call 24/7
               </button>
             </div>
           ))}
