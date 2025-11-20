@@ -19,14 +19,6 @@ export function AboutBrian() {
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
               At The Law Offices of Brian J. Cooke, we treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer. We don't pressure our clients into plea deals. We explore every possible defense and prepare each case as if it is going to trial. The founding attorney of our law firm, Brian Cooke, has represented individuals facing just about every charge–from misdemeanors to murder. Whether you are a first-time offender or have a significant criminal history, we fight each case with everything we have.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:314-526-3779" className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition text-center">
-                Click to Call 24/7
-              </a>
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Schedule a Free Consultation
-              </button>
-            </div>
           </div>
           <div className="order-1 lg:order-2">
             <img
