@@ -56,7 +56,7 @@ export function DWI_FAQ() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#consultation"
-            className="bg-primary hover:bg-primary/90 text-white font-poppins font-bold py-3 px-8 rounded text-center transition-colors duration-300"
+            className="bg-primary hover:bg-primary/90 text-white font-poppins font-bold py-3 px-8 rounded text-center transition-colors duration-300 inline-block"
           >
             Schedule a Free Consultation
           </a>

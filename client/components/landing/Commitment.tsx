@@ -254,9 +254,12 @@ export function Commitment() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-12 justify-center">
-              <button className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition inline-block">
+              <a
+                href="#consultation"
+                className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition inline-block text-center"
+              >
                 Schedule a Free Consultation
-              </button>
+              </a>
               <a href="tel:314-526-3779" className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition text-center inline-block">
                 Click to Call 24/7
               </a>
