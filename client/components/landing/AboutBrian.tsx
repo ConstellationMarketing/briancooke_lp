@@ -51,7 +51,7 @@ export function AboutBrian() {
               Get Help From The Law Offices of Brian J. Cooke
             </h3>
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
-              Receive legal advice and help from St. Louis criminal defense attorney Brian Cooke. If you are facing criminal charges, you need an experienced defense lawyer to ensure that your rights are protected. The Law Offices of Brian J. Cooke offers quality representation. Call or email us 24/7 to schedule a free 30 minute consultation.
+              Receive legal advice and help from St. Louis criminal defense attorney Brian Cooke. If you are facing DWI charges, you need an experienced defense lawyer to ensure that your rights are protected. The Law Offices of Brian J. Cooke offers quality representation. Call or email us 24/7 to schedule a free 30 minute consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
