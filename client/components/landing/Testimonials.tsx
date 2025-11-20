@@ -82,15 +82,6 @@ export function Testimonials() {
               ))}
             </div>
           </div>
-
-          <div className="mt-8 text-center">
-            <a
-              href="#testimonials"
-              className="font-pt-sans text-lg font-bold text-accent hover:underline"
-            >
-              View More Testimonials
-            </a>
-          </div>
         </div>
       </div>
     </section>
