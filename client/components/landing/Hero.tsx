@@ -42,7 +42,7 @@ export function Hero() {
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-8">
-              DWI defense isn't just part of our practice ��� it's what we're known for.
+              DWI defense isn't just part of our practice — it's what we're known for.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
