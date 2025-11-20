@@ -1,5 +1,5 @@
 import { Header } from '@/components/landing/Header';
-import { Hero } from '@/components/landing/Hero';
+import { Hero2 } from '@/components/landing/Hero2';
 import { Badges } from '@/components/landing/Badges';
 import { Commitment } from '@/components/landing/Commitment';
 import { DWI_FAQ } from '@/components/landing/DWI_FAQ';
@@ -14,7 +14,7 @@ export default function DWI2() {
   return (
     <div className="w-full">
       <Header />
-      <Hero />
+      <Hero2 />
       <Badges />
       <Commitment />
       <AboutBrian />
