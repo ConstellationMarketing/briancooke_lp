@@ -19,18 +19,15 @@ export function Consultation() {
             <div className="w-20 sm:w-24 h-1 bg-primary mb-8"></div>
 
             <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-6 text-gray-800">
-              Have you been accused of committing a criminal offense in St. Louis? We invite you to reach out to The Law Offices of Brian J. Cooke if you are looking for a team that marries legal skills with a passion for justice. While no outcome can be guaranteed, what we can promise is our relentless pursuit of the most favorable outcome in your case.
+              Have you been accused of a DWI in the St. Louis area? Reach out to The Law Offices of Brian J. Cooke.
             </p>
 
             <p className="font-pt-sans text-base sm:text-lg leading-relaxed mb-8 text-gray-800">
-              Our satisfaction comes not just from successful case resolutions, but also from the knowledge that we have helped you navigate through one of your most challenging journeys toward a more hopeful horizon.
+              While no outcome can be guaranteed, what we can promise is our relentless pursuit of the most favorable outcome in your case.
             </p>
 
             <p className="font-pt-sans text-base sm:text-lg mb-8 text-gray-800">
-              <a href="#" className="text-primary hover:underline transition">
-                Contact us today
-              </a>
-              {' '}to schedule a free consultation today with a skilled criminal defense attorney.
+              Our satisfaction comes not just from successful case resolutions, but also from the knowledge that we have helped you navigate through one of your most challenging journeys toward a more hopeful horizon. Contact us today to schedule a free consultation today with a skilled criminal defense attorney.
             </p>
 
             <div className="border-t border-primary pt-8 mb-8">
