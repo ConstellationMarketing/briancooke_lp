@@ -61,7 +61,7 @@ export function DWI_FAQ() {
             Schedule a Free Consultation
           </a>
           <a
-            href="tel:+1-xxx-xxx-xxxx"
+            href="tel:+1-314-582-8848"
             className="bg-primary hover:bg-primary/90 text-white font-poppins font-bold py-3 px-8 rounded text-center transition-colors duration-300 flex items-center justify-center gap-2"
           >
             <span>📱</span> Click to Call 24/7

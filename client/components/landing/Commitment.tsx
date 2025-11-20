@@ -260,7 +260,7 @@ export function Commitment() {
               >
                 Schedule a Free Consultation
               </a>
-              <a href="tel:(314)582-8848" className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition text-center inline-block">
+              <a href="tel:+1-314-582-8848" className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition text-center inline-block">
                 Click to Call 24/7
               </a>
             </div>
