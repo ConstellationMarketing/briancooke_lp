@@ -13,7 +13,7 @@ export function ServingAreas() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Serving These Areas
+            We Proudly Serve These Areas
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-accent mx-auto"></div>
         </div>
