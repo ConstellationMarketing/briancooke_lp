@@ -19,7 +19,7 @@ export function Commitment() {
             </p>
 
             {/* Large Block Grid for 4 Benefits */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary rounded-lg p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
