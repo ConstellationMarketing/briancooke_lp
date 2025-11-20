@@ -64,10 +64,6 @@ export function Commitment() {
                 </div>
               </div>
             </div>
-
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed">
-              The firm leverages prosecutorial insight to build strong, strategic defenses.
-            </p>
           </div>
         </div>
       </div>
