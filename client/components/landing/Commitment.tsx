@@ -187,7 +187,7 @@ export function Commitment() {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-6xl mx-auto">
+          <div className="w-full">
             <div className="grid grid-cols-1 gap-6">
               {/* Item 1 */}
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
