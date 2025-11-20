@@ -13,11 +13,12 @@ export function AboutBrian() {
         {/* Main Bio */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-16 lg:mb-20">
           <div className="order-2 lg:order-1">
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
-              At The Law Offices of Brian J. Cooke, LLC we understand a criminal charge is one of the most stressful experiences imaginable. After being arrested, taken to jail, and hauled into court, it often feels as if you've already been convicted. While no attorney can ethically guarantee a result, we do guarantee that we will do everything possible to obtain the best outcome possible in your case. Whether you're facing a serious felony charge or a low-level misdemeanor, it's always a serious matter when your reputation is at stake.
-            </p>
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
-              At The Law Offices of Brian J. Cooke, we treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer. We don't pressure our clients into plea deals. We explore every possible defense and prepare each case as if it is going to trial. The founding attorney of our law firm, Brian Cooke, has represented individuals facing just about every charge–from misdemeanors to murder. Whether you are a first-time offender or have a significant criminal history, we fight each case with everything we have.
+              At The Law Offices of Brian J. Cooke, LLC, we understand that facing a criminal charge is one of the most stressful experiences imaginable. After being arrested, taken to jail, and hauled into court, it can feel as if you've already been convicted. While no attorney can ethically guarantee a result, we promise to do everything possible to achieve the best outcome in your case.
+            </p>
+
+            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
+              We treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer or pressuring clients into plea deals. Instead, we explore every possible defense and prepare each case as if it's going to trial. Founding attorney Brian Cooke has represented individuals facing nearly every type of charge—from misdemeanors to murder—and we fight each case with everything we have.
             </p>
           </div>
           <div className="order-1 lg:order-2">
