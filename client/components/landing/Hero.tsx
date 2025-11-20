@@ -10,7 +10,7 @@ export function Hero() {
     <section
       className="relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fa20fd3c7a4a842c7a353e617a6076f53?format=webp&width=800)',
+        backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F37be31c5276c4f36a2e73f9ffc1ad993?format=webp&width=800)',
       }}
     >
       {/* Dark overlay for text readability */}
@@ -20,7 +20,7 @@ export function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F0291ac0610ef4115816f25d0e935e3da?format=webp&width=800)',
+          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F37be31c5276c4f36a2e73f9ffc1ad993?format=webp&width=800)',
           backgroundPosition: 'left center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'contain',
@@ -67,8 +67,8 @@ export function Hero() {
           {/* Right Image */}
           <div className="hidden lg:flex justify-center items-center">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/8d3d8a7aeeb7ba7f29d3921d0439b8f538952c76?width=997"
-              alt="Brian Cooke"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F37be31c5276c4f36a2e73f9ffc1ad993?format=webp&width=800"
+              alt="DWI Defense"
               className="w-full max-w-md rounded-lg shadow-2xl"
             />
           </div>
