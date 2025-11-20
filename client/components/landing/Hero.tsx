@@ -16,16 +16,6 @@ export function Hero() {
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      {/* Diagonal shape overlay */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F37be31c5276c4f36a2e73f9ffc1ad993?format=webp&width=800)',
-          backgroundPosition: 'left center',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'contain',
-        }}
-      ></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
