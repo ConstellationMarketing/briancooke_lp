@@ -72,7 +72,7 @@ export function Commitment() {
       <div className="bg-primary py-12 sm:py-16 lg:py-20 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
-          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+          <div className="text-center mb-8 sm:mb-10 lg:mb-12 max-w-4xl mx-auto">
             <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-white mb-4">
               Your Future Is Too Important to Trust to Anyone Else
             </h2>
