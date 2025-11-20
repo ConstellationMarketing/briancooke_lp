@@ -1,14 +1,17 @@
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod';
-import { toast } from 'sonner';
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { toast } from "sonner";
 
 const consultationSchema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters'),
-  email: z.string().email('Invalid email address'),
-  phone: z.string().min(10, 'Phone must be at least 10 digits').regex(/^[\d\-\+\(\)\s]+$/, 'Invalid phone format'),
-  message: z.string().min(10, 'Message must be at least 10 characters'),
+  name: z.string().min(2, "Name must be at least 2 characters"),
+  email: z.string().email("Invalid email address"),
+  phone: z
+    .string()
+    .min(10, "Phone must be at least 10 digits")
+    .regex(/^[\d\-\+\(\)\s]+$/, "Invalid phone format"),
+  message: z.string().min(10, "Message must be at least 10 characters"),
 });
 
 type ConsultationFormData = z.infer<typeof consultationSchema>;
@@ -27,23 +30,23 @@ export function ConsultationForm() {
   const onSubmit = async (data: ConsultationFormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch('/api/consultation', {
-        method: 'POST',
+      const response = await fetch("/api/consultation", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit form');
+        throw new Error("Failed to submit form");
       }
 
-      toast.success('Thank you! We will contact you shortly.');
+      toast.success("Thank you! We will contact you shortly.");
       reset();
     } catch (error) {
-      console.error('Form submission error:', error);
-      toast.error('Failed to submit form. Please try again.');
+      console.error("Form submission error:", error);
+      toast.error("Failed to submit form. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -53,7 +56,10 @@ export function ConsultationForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
       {/* Name Field */}
       <div>
-        <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
+        <label
+          htmlFor="name"
+          className="block text-sm font-semibold text-gray-900 mb-2"
+        >
           Full Name
         </label>
         <input
@@ -61,14 +67,19 @@ export function ConsultationForm() {
           type="text"
           placeholder="John Doe"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-          {...register('name')}
+          {...register("name")}
         />
-        {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
+        )}
       </div>
 
       {/* Email Field */}
       <div>
-        <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
+        <label
+          htmlFor="email"
+          className="block text-sm font-semibold text-gray-900 mb-2"
+        >
           Email Address
         </label>
         <input
@@ -76,14 +87,19 @@ export function ConsultationForm() {
           type="email"
           placeholder="john@example.com"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-          {...register('email')}
+          {...register("email")}
         />
-        {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
+        {errors.email && (
+          <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+        )}
       </div>
 
       {/* Phone Field */}
       <div>
-        <label htmlFor="phone" className="block text-sm font-semibold text-gray-900 mb-2">
+        <label
+          htmlFor="phone"
+          className="block text-sm font-semibold text-gray-900 mb-2"
+        >
           Phone Number
         </label>
         <input
@@ -91,14 +107,19 @@ export function ConsultationForm() {
           type="tel"
           placeholder="(314) 582-8848"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-          {...register('phone')}
+          {...register("phone")}
         />
-        {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>}
+        {errors.phone && (
+          <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>
+        )}
       </div>
 
       {/* Message Field */}
       <div>
-        <label htmlFor="message" className="block text-sm font-semibold text-gray-900 mb-2">
+        <label
+          htmlFor="message"
+          className="block text-sm font-semibold text-gray-900 mb-2"
+        >
           Message
         </label>
         <textarea
@@ -106,9 +127,11 @@ export function ConsultationForm() {
           placeholder="Tell us about your case..."
           rows={5}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
-          {...register('message')}
+          {...register("message")}
         />
-        {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>}
+        {errors.message && (
+          <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>
+        )}
       </div>
 
       {/* Submit Button */}
@@ -117,7 +140,7 @@ export function ConsultationForm() {
         disabled={isSubmitting}
         className="w-full bg-primary hover:bg-blue-700 disabled:bg-gray-400 text-white font-poppins font-bold py-3 px-6 rounded-lg transition-colors duration-300"
       >
-        {isSubmitting ? 'Sending...' : 'Send Free Consultation Request'}
+        {isSubmitting ? "Sending..." : "Send Free Consultation Request"}
       </button>
 
       <p className="text-xs text-gray-600 text-center">
