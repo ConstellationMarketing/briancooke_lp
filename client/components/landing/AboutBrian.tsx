@@ -20,9 +20,9 @@ export function AboutBrian() {
               At The Law Offices of Brian J. Cooke, we treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer. We don't pressure our clients into plea deals. We explore every possible defense and prepare each case as if it is going to trial. The founding attorney of our law firm, Brian Cooke, has represented individuals facing just about every charge–from misdemeanors to murder. Whether you are a first-time offender or have a significant criminal history, we fight each case with everything we have.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+              <a href="tel:314-526-3779" className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition text-center">
                 Click to Call 24/7
-              </button>
+              </a>
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
                 Schedule a Free Consultation
               </button>
@@ -54,9 +54,9 @@ export function AboutBrian() {
               Receive legal advice and help from St. Louis criminal defense attorney Brian Cooke. If you are facing DWI charges, you need an experienced defense lawyer to ensure that your rights are protected. The Law Offices of Brian J. Cooke offers quality representation. Call or email us 24/7 to schedule a free 30 minute consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
+              <a href="tel:314-526-3779" className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition text-center">
                 Click to Call 24/7
-              </button>
+              </a>
               <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
                 Schedule a Free Consultation
               </button>
