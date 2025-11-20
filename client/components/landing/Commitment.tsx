@@ -188,7 +188,7 @@ export function Commitment() {
 
           {/* Main Content */}
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               {/* Item 1 */}
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
@@ -238,7 +238,7 @@ export function Commitment() {
               </div>
 
               {/* Item 5 */}
-              <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all lg:col-span-2">
+              <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
                     <span className="text-3xl font-extrabold text-primary">5</span>
