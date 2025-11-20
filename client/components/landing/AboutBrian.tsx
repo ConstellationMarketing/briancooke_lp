@@ -39,7 +39,14 @@ export function AboutBrian() {
 
         {/* Get Help */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-          <div>
+          <div className="order-2 lg:order-1">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/b43a009d0b79ec50fde15ed6ee6daf458b2ef7a9?width=1270"
+              alt="Get Help"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="order-1 lg:order-2">
             <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
               Get Help From The Law Offices of Brian J. Cooke
             </h3>
@@ -54,13 +61,6 @@ export function AboutBrian() {
                 Schedule a Free Consultation
               </button>
             </div>
-          </div>
-          <div>
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/b43a009d0b79ec50fde15ed6ee6daf458b2ef7a9?width=1270"
-              alt="Get Help"
-              className="w-full rounded-lg shadow-lg"
-            />
           </div>
         </div>
       </div>
