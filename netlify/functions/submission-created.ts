@@ -10,7 +10,8 @@ export const handler = async (event: any) => {
   }
 
   try {
-    const parsedBody = typeof event.body === "string" ? JSON.parse(event.body) : event.body;
+    const parsedBody =
+      typeof event.body === "string" ? JSON.parse(event.body) : event.body;
 
     const response = await fetch(webhookUrl, {
       method: "POST",
@@ -21,7 +22,11 @@ export const handler = async (event: any) => {
     });
 
     if (!response.ok) {
-      console.error("Webhook responded with non-OK status", response.status, response.statusText);
+      console.error(
+        "Webhook responded with non-OK status",
+        response.status,
+        response.statusText,
+      );
       return {
         statusCode: 502,
         body: JSON.stringify({ error: "Failed to deliver webhook" }),
