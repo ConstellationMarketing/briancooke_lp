@@ -1,6 +1,9 @@
 export function Commitment() {
   return (
-    <section id="commitment" className="bg-white pt-4 sm:pt-6 lg:pt-8 pb-12 sm:pb-16 lg:pb-20">
+    <section
+      id="commitment"
+      className="bg-white pt-4 sm:pt-6 lg:pt-8 pb-12 sm:pb-16 lg:pb-20"
+    >
       <div className="w-full px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 lg:pb-20">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
@@ -15,7 +18,10 @@ export function Commitment() {
           {/* Why You Need a Skilled DWI Attorney */}
           <div className="mb-8">
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
-              DWI cases involve complex laws, scientific testing, and procedural rules. The Law Offices of Brian J. Cooke leverages years of experience to build strong, strategic defenses. Work with an experienced St. Louis DWI attorney who will:
+              DWI cases involve complex laws, scientific testing, and procedural
+              rules. The Law Offices of Brian J. Cooke leverages years of
+              experience to build strong, strategic defenses. Work with an
+              experienced St. Louis DWI attorney who will:
             </p>
 
             {/* Large Block Grid for 4 Benefits */}
@@ -69,7 +75,13 @@ export function Commitment() {
       </div>
 
       {/* Full-Width Why Hiring Section */}
-      <div className="bg-primary py-12 sm:py-16 lg:py-20 mt-8 relative overflow-hidden" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}>
+      <div
+        className="bg-primary py-12 sm:py-16 lg:py-20 mt-8 relative overflow-hidden"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+        }}
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/10 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -93,7 +105,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Dedicated knowledge in criminal defense, not spread across unrelated practice areas.
+                  Dedicated knowledge in criminal defense, not spread across
+                  unrelated practice areas.
                 </p>
               </div>
 
@@ -108,7 +121,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Personal cell phone access and cloud-based case files available anytime.
+                  Personal cell phone access and cloud-based case files
+                  available anytime.
                 </p>
               </div>
 
@@ -123,7 +137,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Transparent costs with no surprises. Work with you on payment arrangements.
+                  Transparent costs with no surprises. Work with you on payment
+                  arrangements.
                 </p>
               </div>
 
@@ -138,7 +153,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  SuperLawyers Rising Star. 10 Best in Client Satisfaction award for DWI defense.
+                  SuperLawyers Rising Star. 10 Best in Client Satisfaction award
+                  for DWI defense.
                 </p>
               </div>
 
@@ -153,7 +169,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Assistance with treatment placement and underlying issues for long-term success.
+                  Assistance with treatment placement and underlying issues for
+                  long-term success.
                 </p>
               </div>
 
@@ -168,7 +185,8 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Serving St. Louis, St. Charles, Jefferson Counties and surrounding areas.
+                  Serving St. Louis, St. Charles, Jefferson Counties and
+                  surrounding areas.
                 </p>
               </div>
             </div>
@@ -177,7 +195,13 @@ export function Commitment() {
       </div>
 
       {/* How We Build a Defense Section */}
-      <div className="bg-primary py-12 sm:py-16 lg:py-20 relative overflow-hidden" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}>
+      <div
+        className="bg-primary py-12 sm:py-16 lg:py-20 relative overflow-hidden"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+        }}
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/10 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -195,7 +219,9 @@ export function Commitment() {
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-extrabold text-primary">1</span>
+                    <span className="text-3xl font-extrabold text-primary">
+                      1
+                    </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
                     Challenging the Stop and Arrest
@@ -207,7 +233,9 @@ export function Commitment() {
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-extrabold text-primary">2</span>
+                    <span className="text-3xl font-extrabold text-primary">
+                      2
+                    </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
                     Attacking the Evidence
@@ -219,7 +247,9 @@ export function Commitment() {
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-extrabold text-primary">3</span>
+                    <span className="text-3xl font-extrabold text-primary">
+                      3
+                    </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
                     Leveraging Prosecutorial Insight
@@ -231,7 +261,9 @@ export function Commitment() {
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-extrabold text-primary">4</span>
+                    <span className="text-3xl font-extrabold text-primary">
+                      4
+                    </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
                     Tailoring the Strategy to Your Life and Priorities
@@ -243,7 +275,9 @@ export function Commitment() {
               <div className="bg-white bg-opacity-10 border-l-4 border-white rounded-lg p-6 sm:p-8 hover:bg-opacity-15 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-extrabold text-primary">5</span>
+                    <span className="text-3xl font-extrabold text-primary">
+                      5
+                    </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
                     Going Beyond the Legal Case
@@ -260,7 +294,10 @@ export function Commitment() {
               >
                 Schedule a Free Consultation
               </a>
-              <a href="tel:+1-314-582-8848" className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition text-center inline-block">
+              <a
+                href="tel:+1-314-582-8848"
+                className="bg-white text-primary px-8 py-4 rounded font-pt-sans font-semibold hover:bg-gray-100 transition text-center inline-block"
+              >
                 Click to Call 24/7
               </a>
             </div>

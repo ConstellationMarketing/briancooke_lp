@@ -14,11 +14,22 @@ export function AboutBrian() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-16 lg:mb-20">
           <div className="order-2 lg:order-1">
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
-              At The Law Offices of Brian J. Cooke, LLC, we understand that facing a criminal charge is one of the most stressful experiences imaginable. After being arrested, taken to jail, and hauled into court, it can feel as if you've already been convicted. While no attorney can ethically guarantee a result, we promise to do everything possible to achieve the best outcome in your case.
+              At The Law Offices of Brian J. Cooke, LLC, we understand that
+              facing a criminal charge is one of the most stressful experiences
+              imaginable. After being arrested, taken to jail, and hauled into
+              court, it can feel as if you've already been convicted. While no
+              attorney can ethically guarantee a result, we promise to do
+              everything possible to achieve the best outcome in your case.
             </p>
 
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
-              We treat your criminal case as if it were our own. We're not interested in taking the prosecutor's first offer or pressuring clients into plea deals. Instead, we explore every possible defense and prepare each case as if it's going to trial. Founding attorney Brian Cooke has represented individuals facing nearly every type of charge—from misdemeanors to murder—and we fight each case with everything we have.
+              We treat your criminal case as if it were our own. We're not
+              interested in taking the prosecutor's first offer or pressuring
+              clients into plea deals. Instead, we explore every possible
+              defense and prepare each case as if it's going to trial. Founding
+              attorney Brian Cooke has represented individuals facing nearly
+              every type of charge—from misdemeanors to murder—and we fight each
+              case with everything we have.
             </p>
           </div>
           <div className="order-1 lg:order-2">
@@ -29,7 +40,6 @@ export function AboutBrian() {
             />
           </div>
         </div>
-
       </div>
     </section>
   );
