@@ -1,6 +1,6 @@
 export function Badges() {
   return (
-    <section className="bg-white py-12 sm:py-16 lg:py-20">
+    <section className="bg-white py-4 sm:py-6 lg:py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <img
