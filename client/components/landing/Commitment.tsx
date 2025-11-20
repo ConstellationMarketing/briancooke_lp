@@ -92,7 +92,7 @@ export function Commitment() {
                   </h4>
                 </div>
                 <p className="font-pt-sans text-sm text-gray-700 leading-relaxed">
-                  Specialized knowledge in criminal defense, not spread across unrelated practice areas.
+                  Dedicated knowledge in criminal defense, not spread across unrelated practice areas.
                 </p>
               </div>
 
