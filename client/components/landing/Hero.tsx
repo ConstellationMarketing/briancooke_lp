@@ -54,14 +54,6 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="hidden lg:flex justify-center items-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8233df74b78b49a5867a9af5e1f48313?format=webp&width=800"
-              alt="DWI Defense"
-              className="w-full max-w-md rounded-lg shadow-2xl"
-            />
-          </div>
         </div>
       </div>
     </section>
