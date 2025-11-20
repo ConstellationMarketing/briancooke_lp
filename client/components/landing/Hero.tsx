@@ -22,7 +22,7 @@ export function Hero() {
           {/* Left Content */}
           <div className="text-white z-10">
             <h3 className="font-poppins text-accent font-bold text-base sm:text-lg uppercase tracking-wide mb-4">
-              St. Louis DWI Lawyer
+              Elite St. Louis DWI Lawyer
             </h3>
 
             <h1 className="font-poppins text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
