@@ -18,8 +18,8 @@ export default function Index() {
       <Badges />
       <Commitment />
       <AboutBrian />
-      <DWI_FAQ />
       <Testimonials />
+      <DWI_FAQ />
       <Recognized />
       <ServingAreas />
       <Consultation />
