@@ -53,7 +53,7 @@ export function Hero() {
                 Schedule a Free Consultation
               </button>
               <a
-                href="tel:+1-314-582-8848"
+                href="tel:3145828848"
                 className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
               >
                 <svg width="21" height="21" viewBox="0 0 21 21" fill="currentColor">
