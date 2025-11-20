@@ -9,7 +9,7 @@ export function Recognized() {
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-accent mx-auto mb-8"></div>
           <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed max-w-3xl mx-auto">
-            St. Louis Criminal Defense Attorney Brian Cooke has been named a "Rising Star" by SuperLawyers Magazine, was awarded "10 Best in Client Satisfaction" for DWI cases in Missouri, and the Client's choice award by Avvo.com. Brian is a member of the Missouri Association of Criminal Defense Attorneys, The National Association of Criminal Defense Attorneys, and the National College for DWI defense. Whether a low-level misdemeanor or a serious felony, our <a href="#" className="text-primary underline">St. Louis Domestic Violence Lawyer</a> leverages his reputation and experience to obtain the best outcome possible for his clients.
+            St. Louis Criminal Defense Attorney Brian Cooke has been named a "Rising Star" by SuperLawyers Magazine, was awarded "10 Best in Client Satisfaction" for DWI cases in Missouri, and the Client's choice award by Avvo.com. Brian is a member of the Missouri Association of Criminal Defense Attorneys, The National Association of Criminal Defense Attorneys, and the National College for DWI defense.
           </p>
         </div>
 
