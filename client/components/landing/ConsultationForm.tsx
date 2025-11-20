@@ -30,12 +30,20 @@ export function ConsultationForm() {
   const onSubmit = async (data: ConsultationFormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch("/api/consultation", {
+      const formData = new URLSearchParams({
+        "form-name": "consultation",
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+      });
+
+      const response = await fetch("/", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: JSON.stringify(data),
+        body: formData.toString(),
       });
 
       if (!response.ok) {
@@ -53,7 +61,23 @@ export function ConsultationForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+    <form
+      name="consultation"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      onSubmit={handleSubmit(onSubmit)}
+      className="space-y-6"
+    >
+      {/* Netlify Forms detection */}
+      <input type="hidden" name="form-name" value="consultation" />
+      {/* Spam protection honeypot - hidden from humans */}
+      <p className="hidden">
+        <label>
+          Don't fill this out if you're human: <input name="bot-field" />
+        </label>
+      </p>
+
       {/* Name Field */}
       <div>
         <label
