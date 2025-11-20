@@ -20,8 +20,8 @@ export default function Index() {
       <AboutBrian />
       <Testimonials />
       <DWI_FAQ />
-      <Recognized />
       <ServingAreas />
+      <Recognized />
       <Consultation />
       <Footer />
     </div>
