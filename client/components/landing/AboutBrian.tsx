@@ -37,32 +37,6 @@ export function AboutBrian() {
           </div>
         </div>
 
-        {/* Get Help */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-          <div className="order-2 lg:order-1">
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/b43a009d0b79ec50fde15ed6ee6daf458b2ef7a9?width=1270"
-              alt="Get Help"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="order-1 lg:order-2">
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
-              Get Help From The Law Offices of Brian J. Cooke
-            </h3>
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-8">
-              Receive legal advice and help from St. Louis criminal defense attorney Brian Cooke. If you are facing DWI charges, you need an experienced defense lawyer to ensure that your rights are protected. The Law Offices of Brian J. Cooke offers quality representation. Call or email us 24/7 to schedule a free 30 minute consultation.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:314-526-3779" className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition text-center">
-                Click to Call 24/7
-              </a>
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Schedule a Free Consultation
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
