@@ -39,7 +39,7 @@ export function DWI_FAQ() {
         </div>
 
         {/* FAQs */}
-        <div className="max-w-4xl mx-auto space-y-8">
+        <div className="max-w-4xl mx-auto space-y-8 mb-12 sm:mb-16">
           {faqs.map((faq, index) => (
             <div key={index} className="border-l-4 border-primary pl-6 sm:pl-8">
               <h3 className="font-poppins text-lg sm:text-xl font-bold text-gray-900 mb-4">
@@ -50,6 +50,22 @@ export function DWI_FAQ() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* CTA Buttons */}
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="#consultation"
+            className="bg-primary hover:bg-primary/90 text-white font-poppins font-bold py-3 px-8 rounded text-center transition-colors duration-300"
+          >
+            Schedule a Free Consultation
+          </a>
+          <a
+            href="tel:+1-xxx-xxx-xxxx"
+            className="bg-primary hover:bg-primary/90 text-white font-poppins font-bold py-3 px-8 rounded text-center transition-colors duration-300 flex items-center justify-center gap-2"
+          >
+            <span>📱</span> Click to Call 24/7
+          </a>
         </div>
       </div>
     </section>
