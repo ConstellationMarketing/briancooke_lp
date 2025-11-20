@@ -79,7 +79,7 @@ export function Commitment() {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto">
+          <div className="w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* 1. Exclusive Focus */}
               <div className="bg-white bg-opacity-95 rounded-lg p-6 hover:shadow-lg transition-shadow">
