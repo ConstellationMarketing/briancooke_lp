@@ -18,6 +18,8 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/dwi" element={<Index />} />
+            <Route path="/dwi1" element={<Index />} />
             <Route path="/dwi2" element={<DWI2 />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
