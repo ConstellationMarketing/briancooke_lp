@@ -44,14 +44,21 @@ export function CriminalHero() {
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-4">
-              The Law Office of Brian Cooke focuses exclusively on criminal defense in St. Louis and the surrounding counties.
+              The Law Office of Brian Cooke focuses exclusively on criminal
+              defense in St. Louis and the surrounding counties.
             </p>
             <p className="font-pt-sans text-base sm:text-lg text-gray-100 leading-relaxed mb-6 max-w-2xl">
-              Clients receive direct access to Brian's personal cell phone, flat-fee pricing with payment plans, and 24/7 availability. We use secure, cloud-based systems so you can review your case documents anytime and we take a holistic approach that addresses underlying issues like addiction or mental health.
+              Clients receive direct access to Brian's personal cell phone,
+              flat-fee pricing with payment plans, and 24/7 availability. We use
+              secure, cloud-based systems so you can review your case documents
+              anytime and we take a holistic approach that addresses underlying
+              issues like addiction or mental health.
             </p>
 
             <p className="font-pt-sans text-base sm:text-lg text-gray-100 leading-relaxed mb-8 max-w-2xl">
-              We treat your criminal case as if it were our own—preparing every matter as though it is going to trial so we can negotiate from a position of strength or take your case to a jury when needed.
+              We treat your criminal case as if it were our own—preparing every
+              matter as though it is going to trial so we can negotiate from a
+              position of strength or take your case to a jury when needed.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
