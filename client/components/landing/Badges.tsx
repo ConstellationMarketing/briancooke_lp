@@ -6,7 +6,7 @@ export function Badges() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F25a4970a42514f1eb95d9e82e649407a?format=webp&width=800"
             alt="Recognition badges"
-            className="w-full max-w-4xl h-auto"
+            className="w-full h-auto"
           />
         </div>
       </div>
