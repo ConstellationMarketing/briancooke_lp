@@ -17,9 +17,9 @@ export default function Index() {
       <Hero />
       <Badges />
       <Commitment />
+      <AboutBrian />
       <DWI_FAQ />
       <Testimonials />
-      <AboutBrian />
       <Recognized />
       <ServingAreas />
       <Consultation />
