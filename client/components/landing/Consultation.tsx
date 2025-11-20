@@ -26,8 +26,12 @@ export function Consultation() {
               While no outcome can be guaranteed, what we can promise is our relentless pursuit of the most favorable outcome in your case.
             </p>
 
+            <p className="font-pt-sans text-base sm:text-lg mb-4 text-gray-800">
+              Our satisfaction comes not just from successful case resolutions, but also from the knowledge that we have helped you navigate through one of your most challenging journeys.
+            </p>
+
             <p className="font-pt-sans text-base sm:text-lg mb-8 text-gray-800">
-              Our satisfaction comes not just from successful case resolutions, but also from the knowledge that we have helped you navigate through one of your most challenging journeys toward a more hopeful horizon. Contact us today to schedule a free consultation today with a skilled criminal defense attorney.
+              Contact us today to schedule a free consultation.
             </p>
 
             <div className="border-t border-primary pt-8 mb-8">
