@@ -69,7 +69,7 @@ export function Commitment() {
       </div>
 
       {/* Full-Width Why Hiring Section */}
-      <div className="bg-primary py-12 sm:py-16 lg:py-20 mt-8">
+      <div className="bg-gradient-to-br from-primary to-blue-800 py-12 sm:py-16 lg:py-20 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-8 sm:mb-10 lg:mb-12 max-w-4xl mx-auto">
