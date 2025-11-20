@@ -57,8 +57,8 @@ export function Testimonials() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Testimonial Content */}
-            <div className="min-h-[280px] sm:min-h-[320px] flex flex-col justify-center text-center">
-              <p className="font-pt-sans text-lg sm:text-xl text-white leading-relaxed mb-6 italic transition-opacity duration-500">
+            <div className="min-h-[120px] sm:min-h-[140px] flex flex-col justify-center text-center">
+              <p className="font-pt-sans text-2xl sm:text-3xl text-white leading-relaxed mb-3 italic transition-opacity duration-500">
                 "{testimonials[currentIndex].text}"
               </p>
               <p className="font-pt-sans text-lg text-accent italic font-semibold transition-opacity duration-500">
