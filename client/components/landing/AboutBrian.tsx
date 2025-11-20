@@ -37,35 +37,6 @@ export function AboutBrian() {
           </div>
         </div>
 
-        {/* Missouri Overview */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-16 lg:mb-20">
-          <div>
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/ee9c24bc02496c2178930df9dfa7d34ed8093002?width=1278"
-              alt="Missouri Criminal Defense Overview"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-          <div>
-            <h3 className="font-poppins text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
-              Missouri Criminal Defense Overview
-            </h3>
-            <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed text-right mb-8">
-              No one expects criminal charges, and when they come you have to put on a brave face and find a criminal lawyer. One of the most stressful aspects is often not understanding Missouri's criminal case process. After being arrested and hauled into court, it may feel as if you've already been convicted. However, no case is "open and shut". Missouri's criminal justice system and criminal laws are complex and it is imperative to have a good criminal defense lawyer on your side. Below is an overview of the criminal process in Missouri.
-              <br /><br />
-              · Investigations, Interrogations, and Arrests: If the police are investigating you for a criminal offense, it is in your best interest to get a criminal attorney involved. Oftentimes, legal representation can speak directly with the investigating officer in order to stop further harassment from the police.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Read More
-              </button>
-              <button className="bg-primary text-white px-6 py-3 rounded font-pt-sans font-semibold hover:bg-blue-700 transition">
-                Schedule a Free Consultation
-              </button>
-            </div>
-          </div>
-        </div>
-
         {/* Get Help */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div>
