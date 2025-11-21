@@ -4,6 +4,7 @@ import { Badges } from "@/components/landing/Badges";
 import { Commitment } from "@/components/landing/Commitment";
 import { DWI_FAQ } from "@/components/landing/DWI_FAQ";
 import { Testimonials } from "@/components/landing/Testimonials";
+import { CaseResults } from "@/components/landing/CaseResults";
 import { AboutBrian } from "@/components/landing/AboutBrian";
 import { Recognized } from "@/components/landing/Recognized";
 import { ServingAreas } from "@/components/landing/ServingAreas";
@@ -20,6 +21,7 @@ export default function Index() {
         arrestChallengeText="Challenging the Stop and Arrest"
         introText="DWI cases involve complex laws, scientific testing, and procedural rules. Work with an experienced St. Louis DWI attorney who will:"
       />
+      <CaseResults />
       <AboutBrian />
       <Testimonials />
       <DWI_FAQ />
