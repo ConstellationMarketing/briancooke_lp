@@ -44,7 +44,7 @@ export function CriminalHero() {
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
 
             <p className="font-poppins text-xl sm:text-2xl font-bold leading-relaxed mb-4">
-              The Law Office of Brian Cooke focuses exclusively on criminal
+              The Law Offices of Brian J. Cooke focuses exclusively on criminal
               defense in St. Louis and the surrounding counties.
             </p>
             <p className="font-pt-sans text-base sm:text-lg text-gray-100 leading-relaxed mb-6 max-w-2xl">
