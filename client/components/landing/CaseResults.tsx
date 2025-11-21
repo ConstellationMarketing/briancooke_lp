@@ -33,11 +33,10 @@ export function CaseResults() {
         "A St. Louis man was charged with driving while intoxicated resulting in serious physical injury and armed criminal action after allegedly hitting another motorist and causing serious...",
     },
     {
-      title:
-        'Felony Domestic Assault Charges Dismissed after "victim" forced to admit allegation was fabrication',
-      date: "Jun 18, 2025",
+      title: "DWI Resulting in Death Charges Reduced",
+      date: "Mar 4, 2025",
       description:
-        "A prominent St. Louis night club promoter was charged with Domestic Assault in the 2nd Degree, Domestic Assault in the 3rd Degree, and Stealing after a former girlfriend accused him of...",
+        "Client was charged in DWI resulting in Death after allegedly taking police on a highspeed chase while intoxicated, wrecking his vehicle resulting in the death of a passenger. Client...",
     },
   ];
 
