@@ -20,6 +20,12 @@ export function DWICaseResults() {
       description:
         "Client was charged in DWI resulting in Death after allegedly taking police on a highspeed chase while intoxicated, wrecking his vehicle resulting in the death of a passenger. Client...",
     },
+    {
+      title: "DWI Reduced to Reckless Driving",
+      date: "Sep 18, 2024",
+      description:
+        "A St. Louis man was charged with DWI after being stopped, speaking with slurred speech, allegedly failing all sobriety tests, smelling of alcohol, and refusing a breath test. We were able...",
+    },
   ];
 
   return (
