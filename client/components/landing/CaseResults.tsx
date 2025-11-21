@@ -27,10 +27,10 @@ export function CaseResults() {
         "Client was charged with DWI after failing all field sobriety tests and blowing .12 on a breath test. We successfully challenged the breath test due to the officer failing to conduct a...",
     },
     {
-      title: "Aggravated Felony Fleeing Charges Reduced to Misdemeanor",
-      date: "Jul 10, 2025",
+      title: "DWI Resulting in Serious Physical Injury and ACA Charges Dismissed after Evidence Suppressed",
+      date: "Mar 25, 2025",
       description:
-        "Client was charged with aggravated fleeing under Missouri's new Valentine's Law. Client was accused of taking police on a high speed chase in a manner that created a substantial risk of...",
+        "A St. Louis man was charged with driving while intoxicated resulting in serious physical injury and armed criminal action after allegedly hitting another motorist and causing serious...",
     },
     {
       title:
