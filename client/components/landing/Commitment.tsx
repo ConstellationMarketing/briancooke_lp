@@ -223,7 +223,7 @@ export function Commitment() {
                     </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
-                    Challenging the Stop and Arrest
+                    Challenging the Arrest
                   </h3>
                 </div>
               </div>
