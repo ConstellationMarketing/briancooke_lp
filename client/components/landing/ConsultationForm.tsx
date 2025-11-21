@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 
 const consultationSchema = z.object({
@@ -24,6 +26,7 @@ export function ConsultationForm({
   formName = "consultation",
 }: ConsultationFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
