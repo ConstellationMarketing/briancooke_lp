@@ -25,7 +25,7 @@ export default function Index() {
       <DWI_FAQ />
       <ServingAreas />
       <Recognized />
-      <Consultation />
+      <Consultation formName="consultation-dwi" />
       <Footer />
     </div>
   );

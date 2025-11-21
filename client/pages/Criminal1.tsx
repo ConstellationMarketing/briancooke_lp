@@ -27,7 +27,7 @@ export default function Criminal1() {
       <Testimonials />
       <ServingAreas />
       <Recognized />
-      <Consultation />
+      <Consultation formName="consultation-criminal" />
       <Footer />
     </div>
   );

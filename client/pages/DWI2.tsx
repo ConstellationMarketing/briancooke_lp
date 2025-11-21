@@ -25,7 +25,7 @@ export default function DWI2() {
       <DWI_FAQ />
       <ServingAreas />
       <Recognized />
-      <Consultation />
+      <Consultation formName="consultation-dwi2" />
       <Footer />
     </div>
   );
