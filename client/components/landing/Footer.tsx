@@ -6,7 +6,7 @@ export function Footer() {
           Serving the cities of St. Louis, Clayton, St. Charles, Maryland Heights, Ellisville, Town and Country, Ladue, Kirkwood, Webster Groves, Ballwin, Manchester, Richmond Heights, Lake St. Louis, Wentzville, Warrenton, Crestwood, Hillsboro, O'Fallon, St. Peters, Columbia, and to St. Louis County, St Charles County, Phelps County, Lincoln County, Franklin County, Boone County, Warren County and Jefferson County, Missouri, among others.
         </p>
         <p className="font-pt-sans text-sm">
-          © Copyright 2018-2024, The Law Offices of Brian J. Cooke, LLC.
+          © Copyright 2018-2025, The Law Offices of Brian J. Cooke, LLC.
         </p>
       </div>
     </footer>
