@@ -1,25 +1,6 @@
 export function CaseResults() {
   const cases = [
     {
-      title: "Teacher accused of felony assault on student: Case Dismissed",
-      date: "Oct 19, 2025",
-      description:
-        "Client was a teacher accused of kicking a student, causing physical injury. During our investigation we uncovered that the alleged bruise was actually a birth mark and that the allegation...",
-    },
-    {
-      title:
-        "Domestic Assault, UUW, and Stealing Charges Dismissed; Probation Reinstated",
-      date: "Oct 13, 2025",
-      description:
-        "Client was on probation for shooting at or from a motor vehicle and faced a mandatory 15 year sentence if revoked. While on probation, Client was charged with felony Domestic Assault,...",
-    },
-    {
-      title: "Missouri Woman Acquitted of Statutory Sodomy",
-      date: "Aug 22, 2025",
-      description:
-        "A Missouri woman was charged with statutory sodomy after her daughter alleged that she had shown her pornography and touched her genitals. Attorney Brian Cooke assisted Phil Eisenhauer in...",
-    },
-    {
       title:
         ".12 BAC DWI reduced to reckless driving. Driver's license reinstated.",
       date: "Jul 23, 2025",
