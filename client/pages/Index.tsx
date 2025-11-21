@@ -22,7 +22,7 @@ export default function Index() {
         introText="DWI cases involve complex laws, scientific testing, and procedural rules. Work with an experienced St. Louis DWI attorney who will:"
       />
       <AboutBrian />
-      <CaseResults />
+      <DWICaseResults />
       <Testimonials />
       <DWI_FAQ />
       <ServingAreas />
