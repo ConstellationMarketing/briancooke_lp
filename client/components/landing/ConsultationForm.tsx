@@ -56,8 +56,8 @@ export function ConsultationForm({
         throw new Error("Failed to submit form");
       }
 
-      toast.success("Thank you! We will contact you shortly.");
       reset();
+      navigate("/thank-you");
     } catch (error) {
       console.error("Form submission error:", error);
       toast.error("Failed to submit form. Please try again.");
