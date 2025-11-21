@@ -232,7 +232,7 @@ export function Commitment({ attorneyType = "dwi", arrestChallengeText = "Challe
                     </span>
                   </div>
                   <h3 className="font-poppins text-2xl sm:text-3xl font-extrabold text-white leading-tight pt-1">
-                    Challenging the Arrest
+                    {arrestChallengeText}
                   </h3>
                 </div>
               </div>
