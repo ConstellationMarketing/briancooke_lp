@@ -1,6 +1,10 @@
 import { ConsultationForm } from "./ConsultationForm";
 
-export function Consultation() {
+interface ConsultationProps {
+  formName?: string;
+}
+
+export function Consultation({ formName = "consultation" }: ConsultationProps) {
   return (
     <section
       id="consultation"
@@ -23,7 +27,7 @@ export function Consultation() {
 
         {/* Form Container */}
         <div className="max-w-2xl mx-auto bg-white rounded-lg p-8 sm:p-12 shadow-lg">
-          <ConsultationForm />
+          <ConsultationForm formName={formName} />
         </div>
       </div>
     </section>
