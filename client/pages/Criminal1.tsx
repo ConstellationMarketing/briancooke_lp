@@ -17,7 +17,10 @@ export default function Criminal1() {
       <Header />
       <CriminalHero />
       <Badges />
-      <Commitment attorneyType="criminal" />
+      <Commitment
+        attorneyType="criminal"
+        introText="We understand that each criminal charge has its own set of complexities. That's why we develop focused defense strategies that are specific to the nature of the allegations. The Law Offices of Brian J. Cooke leverages years of experience to build strong, strategic defenses. Work with an experienced St. Louis criminal defense attorney who will:"
+      />
       <PracticeAreas />
       <CaseResults />
       <AboutBrian />
