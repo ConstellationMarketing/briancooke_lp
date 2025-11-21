@@ -16,7 +16,7 @@ export default function Index() {
       <Header />
       <Hero />
       <Badges />
-      <Commitment />
+      <Commitment arrestChallengeText="Challenging the Stop and Arrest" />
       <AboutBrian />
       <Testimonials />
       <DWI_FAQ />
