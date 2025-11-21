@@ -18,8 +18,7 @@ export function Commitment() {
           {/* Why You Need a Skilled DWI Attorney */}
           <div className="mb-8">
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
-              DWI cases involve complex laws, scientific testing, and procedural
-              rules. The Law Offices of Brian J. Cooke leverages years of
+              We understand that each criminal charge has its own set of complexities. That's why we develop focused defense strategies that are specific to the nature of the allegations. The Law Offices of Brian J. Cooke leverages years of
               experience to build strong, strategic defenses. Work with an
               experienced St. Louis DWI attorney who will:
             </p>
