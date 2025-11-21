@@ -20,7 +20,9 @@ interface ConsultationFormProps {
   formName?: string;
 }
 
-export function ConsultationForm({ formName = "consultation" }: ConsultationFormProps) {
+export function ConsultationForm({
+  formName = "consultation",
+}: ConsultationFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const {
     register,
