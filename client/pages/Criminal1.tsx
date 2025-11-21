@@ -17,7 +17,7 @@ export default function Criminal1() {
       <Header />
       <CriminalHero />
       <Badges />
-      <Commitment />
+      <Commitment attorneyType="criminal" />
       <PracticeAreas />
       <CaseResults />
       <AboutBrian />
