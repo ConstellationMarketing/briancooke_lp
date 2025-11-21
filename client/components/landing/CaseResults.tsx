@@ -1,6 +1,25 @@
 export function CaseResults() {
   const cases = [
     {
+      title: "Teacher accused of felony assault on student: Case Dismissed",
+      date: "Oct 19, 2025",
+      description:
+        "Client was a teacher accused of kicking a student, causing physical injury. During our investigation we uncovered that the alleged bruise was actually a birth mark and that the allegation...",
+    },
+    {
+      title:
+        "Domestic Assault, UUW, and Stealing Charges Dismissed; Probation Reinstated",
+      date: "Oct 13, 2025",
+      description:
+        "Client was on probation for shooting at or from a motor vehicle and faced a mandatory 15 year sentence if revoked. While on probation, Client was charged with felony Domestic Assault,...",
+    },
+    {
+      title: "Missouri Woman Acquitted of Statutory Sodomy",
+      date: "Aug 22, 2025",
+      description:
+        "A Missouri woman was charged with statutory sodomy after her daughter alleged that she had shown her pornography and touched her genitals. Attorney Brian Cooke assisted Phil Eisenhauer in...",
+    },
+    {
       title:
         ".12 BAC DWI reduced to reckless driving. Driver's license reinstated.",
       date: "Jul 23, 2025",
@@ -8,16 +27,17 @@ export function CaseResults() {
         "Client was charged with DWI after failing all field sobriety tests and blowing .12 on a breath test. We successfully challenged the breath test due to the officer failing to conduct a...",
     },
     {
-      title: "DWI Resulting in Serious Physical Injury and ACA Charges Dismissed after Evidence Suppressed",
-      date: "Mar 25, 2025",
+      title: "Aggravated Felony Fleeing Charges Reduced to Misdemeanor",
+      date: "Jul 10, 2025",
       description:
-        "A St. Louis man was charged with driving while intoxicated resulting in serious physical injury and armed criminal action after allegedly hitting another motorist and causing serious...",
+        "Client was charged with aggravated fleeing under Missouri's new Valentine's Law. Client was accused of taking police on a high speed chase in a manner that created a substantial risk of...",
     },
     {
-      title: "DWI Resulting in Death Charges Reduced",
-      date: "Mar 4, 2025",
+      title:
+        'Felony Domestic Assault Charges Dismissed after "victim" forced to admit allegation was fabrication',
+      date: "Jun 18, 2025",
       description:
-        "Client was charged in DWI resulting in Death after allegedly taking police on a highspeed chase while intoxicated, wrecking his vehicle resulting in the death of a passenger. Client...",
+        "A prominent St. Louis night club promoter was charged with Domestic Assault in the 2nd Degree, Domestic Assault in the 3rd Degree, and Stealing after a former girlfriend accused him of...",
     },
   ];
 
