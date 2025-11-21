@@ -9,8 +9,22 @@
   <body>
     <div id="root"></div>
 
-    <!-- Hidden form for Netlify Forms detection at build time -->
-    <form name="consultation" netlify netlify-honeypot="bot-field" hidden>
+    <!-- Hidden forms for Netlify Forms detection at build time -->
+    <form name="consultation-dwi" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="consultation-dwi2" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="consultation-criminal" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <input type="tel" name="phone" />
