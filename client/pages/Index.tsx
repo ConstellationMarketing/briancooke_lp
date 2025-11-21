@@ -4,7 +4,7 @@ import { Badges } from "@/components/landing/Badges";
 import { Commitment } from "@/components/landing/Commitment";
 import { DWI_FAQ } from "@/components/landing/DWI_FAQ";
 import { Testimonials } from "@/components/landing/Testimonials";
-import { CaseResults } from "@/components/landing/CaseResults";
+import { DWICaseResults } from "@/components/landing/DWICaseResults";
 import { AboutBrian } from "@/components/landing/AboutBrian";
 import { Recognized } from "@/components/landing/Recognized";
 import { ServingAreas } from "@/components/landing/ServingAreas";
