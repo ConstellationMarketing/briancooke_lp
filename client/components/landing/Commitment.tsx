@@ -1,9 +1,14 @@
 interface CommitmentProps {
   attorneyType?: "dwi" | "criminal";
   arrestChallengeText?: string;
+  introText?: string;
 }
 
-export function Commitment({ attorneyType = "dwi", arrestChallengeText = "Challenging the Arrest" }: CommitmentProps) {
+export function Commitment({
+  attorneyType = "dwi",
+  arrestChallengeText = "Challenging the Arrest",
+  introText = "We understand that each criminal charge has its own set of complexities. That's why we develop focused defense strategies that are specific to the nature of the allegations. The Law Offices of Brian J. Cooke leverages years of experience to build strong, strategic defenses. Work with an experienced St. Louis criminal defense attorney who will:"
+}: CommitmentProps) {
   const heading = attorneyType === "criminal"
     ? "You Need a Proven Criminal Defense Attorney"
     : "You Need a Proven DWI Attorney";
