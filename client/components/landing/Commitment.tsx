@@ -2,7 +2,7 @@ export function Commitment() {
   return (
     <section
       id="commitment"
-      className="bg-white pt-4 sm:pt-6 lg:pt-8 pb-12 sm:pb-16 lg:pb-20"
+      className="bg-white py-12 sm:py-16 lg:py-20"
     >
       <div className="w-full px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 lg:pb-20">
         {/* Header */}
