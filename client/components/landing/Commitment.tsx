@@ -8,7 +8,7 @@ export function Commitment() {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
           <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            You Need a Proven DWI Attorney
+            You Need a Proven Criminal Defense Attorney
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-4"></div>
         </div>
