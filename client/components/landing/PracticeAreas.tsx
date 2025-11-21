@@ -56,7 +56,7 @@ export function PracticeAreas() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Practice Areas
+            Our Practice Areas
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-8"></div>
           <div className="max-w-3xl mx-auto text-gray-800 font-pt-sans text-base sm:text-lg leading-relaxed">
