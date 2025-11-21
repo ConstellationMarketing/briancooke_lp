@@ -51,7 +51,7 @@ export function PracticeAreas() {
   ];
 
   return (
-    <section id="practice-areas" className="bg-white py-16 sm:py-20 lg:py-28">
+    <section id="practice-areas" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
