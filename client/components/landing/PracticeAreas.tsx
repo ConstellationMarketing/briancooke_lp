@@ -60,11 +60,8 @@ export function PracticeAreas() {
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-8"></div>
           <div className="max-w-3xl mx-auto text-gray-800 font-pt-sans text-base sm:text-lg leading-relaxed">
-            <p className="mb-4">
-              At The Law Offices of Brian J. Cooke, we focus entirely on criminal defense, delivering aggressive and effective legal services tailored to protect our clients' rights and provide them with a strong defense. Our legal team has extensive experience across various criminal issues, including <span className="underline">sex crimes</span>, drug offenses, white-collar crimes, etc, enabling us to address the unique challenges and concerns our clients may face.
-            </p>
             <p>
-              We understand that each criminal charge has its own set of complexities. That's why we develop focused defense strategies that are specific to the nature of the allegations. We also keep up-to-date with how <span className="underline">technology affects the courtroom</span>, enhancing how evidence is presented and used in your defense.
+              At The Law Offices of Brian J. Cooke, we focus entirely on criminal defense, delivering aggressive and effective legal services tailored to protect our clients' rights and provide them with a strong defense. Our legal team has extensive experience across various criminal issues, including sex crimes, drug offenses, white-collar crimes, and more.   We understand that each criminal charge has its own set of complexities, and our results speak for themselves.
             </p>
           </div>
         </div>
