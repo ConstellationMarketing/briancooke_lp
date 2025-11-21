@@ -1,8 +1,9 @@
 interface CommitmentProps {
   attorneyType?: "dwi" | "criminal";
+  arrestChallengeText?: string;
 }
 
-export function Commitment({ attorneyType = "dwi" }: CommitmentProps) {
+export function Commitment({ attorneyType = "dwi", arrestChallengeText = "Challenging the Arrest" }: CommitmentProps) {
   const heading = attorneyType === "criminal"
     ? "You Need a Proven Criminal Defense Attorney"
     : "You Need a Proven DWI Attorney";
