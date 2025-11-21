@@ -1,9 +1,6 @@
 export function Commitment() {
   return (
-    <section
-      id="commitment"
-      className="bg-white py-12 sm:py-16 lg:py-20"
-    >
+    <section id="commitment" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="w-full px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 lg:pb-20">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
@@ -18,9 +15,12 @@ export function Commitment() {
           {/* Why You Need a Skilled DWI Attorney */}
           <div className="mb-8">
             <p className="font-pt-sans text-base sm:text-lg text-gray-800 leading-relaxed mb-6">
-              We understand that each criminal charge has its own set of complexities. That's why we develop focused defense strategies that are specific to the nature of the allegations. The Law Offices of Brian J. Cooke leverages years of
-              experience to build strong, strategic defenses. Work with an
-              experienced St. Louis criminal defense attorney who will:
+              We understand that each criminal charge has its own set of
+              complexities. That's why we develop focused defense strategies
+              that are specific to the nature of the allegations. The Law
+              Offices of Brian J. Cooke leverages years of experience to build
+              strong, strategic defenses. Work with an experienced St. Louis
+              criminal defense attorney who will:
             </p>
 
             {/* Large Block Grid for 4 Benefits */}

@@ -1,53 +1,65 @@
 export function PracticeAreas() {
   const practiceAreas = [
     {
-      title: 'Assault Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/bd87a02c22e1aa693c44374b978825edae0d6a74?width=640'
+      title: "Assault Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/bd87a02c22e1aa693c44374b978825edae0d6a74?width=640",
     },
     {
-      title: 'DWI Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/9857504698dc348902511ba491e0d3a0724aabcc?width=640'
+      title: "DWI Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/9857504698dc348902511ba491e0d3a0724aabcc?width=640",
     },
     {
-      title: 'Murder Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/8dfbb4a06b9ede4d9ab8b3bbb0237a33816ab273?width=640'
+      title: "Murder Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/8dfbb4a06b9ede4d9ab8b3bbb0237a33816ab273?width=640",
     },
     {
-      title: 'Stealing Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/48fc7d214a346fbb7b8fb4533f38d19e56914cc5?width=640'
+      title: "Stealing Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/48fc7d214a346fbb7b8fb4533f38d19e56914cc5?width=640",
     },
     {
-      title: 'Domestic Violence',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/88e58f1adf768fadbf89052f97c434081d1468a7?width=640'
+      title: "Domestic Violence",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/88e58f1adf768fadbf89052f97c434081d1468a7?width=640",
     },
     {
-      title: 'Fraud Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/38df7ac22d5f5a6116d0bc40eef40a0bb3f6ec2e?width=640'
+      title: "Fraud Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/38df7ac22d5f5a6116d0bc40eef40a0bb3f6ec2e?width=640",
     },
     {
-      title: 'Probation Violations',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/6468652a19e0fce207116372ae226d916b6ab759?width=640'
+      title: "Probation Violations",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/6468652a19e0fce207116372ae226d916b6ab759?width=640",
     },
     {
-      title: 'Traffic Tickets',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/c17d1cb4e0e1a9262f8c8a34d1829c5157eff4f7?width=640'
+      title: "Traffic Tickets",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/c17d1cb4e0e1a9262f8c8a34d1829c5157eff4f7?width=640",
     },
     {
-      title: 'Drug Charges',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/fda0d87cb740ed9e53154d43fab137315d9a0735?width=640'
+      title: "Drug Charges",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/fda0d87cb740ed9e53154d43fab137315d9a0735?width=640",
     },
     {
-      title: 'Juvenile Offenses',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/9700034c1ae348cded4ac6fe711eaa4a815b6282?width=640'
+      title: "Juvenile Offenses",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/9700034c1ae348cded4ac6fe711eaa4a815b6282?width=640",
     },
     {
-      title: 'Sex Offenses',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/66c8101b4b3ddd541098c97d75a4121164e3b90e?width=640'
+      title: "Sex Offenses",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/66c8101b4b3ddd541098c97d75a4121164e3b90e?width=640",
     },
     {
-      title: 'Weapons Offenses',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/572c9cec31a54383750e1da85818428f1cd43d4e?width=640'
-    }
+      title: "Weapons Offenses",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/572c9cec31a54383750e1da85818428f1cd43d4e?width=640",
+    },
   ];
 
   return (
@@ -61,7 +73,14 @@ export function PracticeAreas() {
           <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-8"></div>
           <div className="max-w-3xl mx-auto text-gray-800 font-pt-sans text-base sm:text-lg leading-relaxed">
             <p>
-              At The Law Offices of Brian J. Cooke, we focus entirely on criminal defense, delivering aggressive and effective legal services tailored to protect our clients' rights and provide them with a strong defense. Our legal team has extensive experience across various criminal issues, including sex crimes, drug offenses, white-collar crimes, and more.   We understand that each criminal charge has its own set of complexities, and our results speak for themselves.
+              At The Law Offices of Brian J. Cooke, we focus entirely on
+              criminal defense, delivering aggressive and effective legal
+              services tailored to protect our clients' rights and provide them
+              with a strong defense. Our legal team has extensive experience
+              across various criminal issues, including sex crimes, drug
+              offenses, white-collar crimes, and more. We understand that each
+              criminal charge has its own set of complexities, and our results
+              speak for themselves.
             </p>
           </div>
         </div>
