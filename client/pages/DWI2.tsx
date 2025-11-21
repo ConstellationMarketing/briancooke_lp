@@ -16,7 +16,7 @@ export default function DWI2() {
       <Header />
       <Hero2 />
       <Badges />
-      <Commitment />
+      <Commitment arrestChallengeText="Challenging the Stop and Arrest" />
       <AboutBrian />
       <Testimonials />
       <DWI_FAQ />
