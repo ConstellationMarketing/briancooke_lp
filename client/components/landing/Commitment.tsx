@@ -1,11 +1,19 @@
-export function Commitment() {
+interface CommitmentProps {
+  attorneyType?: "dwi" | "criminal";
+}
+
+export function Commitment({ attorneyType = "dwi" }: CommitmentProps) {
+  const heading = attorneyType === "criminal"
+    ? "You Need a Proven Criminal Defense Attorney"
+    : "You Need a Proven DWI Attorney";
+
   return (
     <section id="commitment" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="w-full px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 lg:pb-20">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
           <h2 className="font-poppins text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            You Need a Proven Criminal Defense Attorney
+            {heading}
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-primary mx-auto mb-4"></div>
         </div>
