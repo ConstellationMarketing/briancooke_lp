@@ -22,16 +22,17 @@ export default function ThankYou() {
               />
             </svg>
           </div>
-          
+
           <h1 className="font-poppins text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Thank You!
           </h1>
-          
+
           <p className="font-pt-sans text-lg sm:text-xl text-gray-700 leading-relaxed mb-8">
-            We have received your consultation request and will contact you shortly. 
-            A member of our team will reach out to discuss your case and answer any questions you may have.
+            We have received your consultation request and will contact you
+            shortly. A member of our team will reach out to discuss your case
+            and answer any questions you may have.
           </p>
-          
+
           <div className="space-y-4">
             <p className="font-pt-sans text-base text-gray-600">
               For urgent matters, please call us directly:
