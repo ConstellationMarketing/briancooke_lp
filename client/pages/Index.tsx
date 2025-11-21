@@ -21,8 +21,8 @@ export default function Index() {
         arrestChallengeText="Challenging the Stop and Arrest"
         introText="DWI cases involve complex laws, scientific testing, and procedural rules. Work with an experienced St. Louis DWI attorney who will:"
       />
-      <CaseResults />
       <AboutBrian />
+      <CaseResults />
       <Testimonials />
       <DWI_FAQ />
       <ServingAreas />
