@@ -16,7 +16,11 @@ const consultationSchema = z.object({
 
 type ConsultationFormData = z.infer<typeof consultationSchema>;
 
-export function ConsultationForm() {
+interface ConsultationFormProps {
+  formName?: string;
+}
+
+export function ConsultationForm({ formName = "consultation" }: ConsultationFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const {
     register,
@@ -31,7 +35,7 @@ export function ConsultationForm() {
     setIsSubmitting(true);
     try {
       const formData = new URLSearchParams({
-        "form-name": "consultation",
+        "form-name": formName,
         name: data.name,
         email: data.email,
         phone: data.phone,
@@ -62,7 +66,7 @@ export function ConsultationForm() {
 
   return (
     <form
-      name="consultation"
+      name={formName}
       method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
@@ -70,7 +74,7 @@ export function ConsultationForm() {
       className="space-y-6"
     >
       {/* Netlify Forms detection */}
-      <input type="hidden" name="form-name" value="consultation" />
+      <input type="hidden" name="form-name" value={formName} />
       {/* Spam protection honeypot - hidden from humans */}
       <p className="hidden">
         <label>
