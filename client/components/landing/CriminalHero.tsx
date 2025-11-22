@@ -38,7 +38,7 @@ export function CriminalHero() {
             </h3>
 
             <h1 className="font-poppins text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              High-Touch, Trial-Ready Criminal Defense.
+              Results-Driven. Trial-Ready Criminal Defense.
             </h1>
 
             <div className="w-24 sm:w-32 h-1 bg-accent mb-6"></div>
